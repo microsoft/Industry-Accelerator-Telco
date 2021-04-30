@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{962b69fc-1428-49f7-b5da-d80815a80b91}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{368e8638-9ed4-4448-a850-6921eb234364}" IsUserDefined="1" name="{368e8638-9ed4-4448-a850-6921eb234364}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{32bb2018-1bf6-426c-aacd-0cc9025ac49a}" name="{32bb2018-1bf6-426c-aacd-0cc9025ac49a}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{39a236d8-210f-4e4d-8d6e-ff783cd9ef7a}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab38bb43-37d1-8c54-3478-abe6410c8b7d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_code" disabled="true" uniqueid="{40a1b615-4905-1bc5-5a6c-2a588394a32c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e9aa2dd-635b-e018-28e6-9b00c4512619}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mstelco_description" disabled="false" uniqueid="{60a5ec97-1324-a074-ca49-51278b395e86}" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{368e8638-9ed4-4448-a850-6921eb234364}_section_2" showlabel="false" showbar="false" locklevel="0" id="{237b48d4-81a7-d896-636c-c9d4da893028}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4053b5d0-67de-6e0b-b91a-31b8b42dec18}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Service Areas" languagecode="1033" />
+                        </labels>
+                        <control id="servicearea_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{06ADCC17-6EB2-48F1-8A49-6EA39427246C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mstelco_servicearea_mstelco_serviceareatechnology</RelationshipName>
+                            <TargetEntityType>mstelco_servicearea</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{06ADCC17-6EB2-48F1-8A49-6EA39427246C}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>2</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="admin" id="{6080da68-9623-2580-c227-2b8d1d960291}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Admin" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="admin_section_1" showlabel="false" showbar="false" locklevel="0" id="{ab2048ac-37a2-10ca-459a-7b8330130512}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{24894bac-ba09-4fd4-ad2b-f2219e911d29}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{5a4b4106-56b5-eb9a-b928-e3318da2237d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External ID" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_externalid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_externalid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{593d5bea-5b53-5907-d19d-5252a1a4bc8c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{031d2a5d-461e-e688-9b51-16ba458db784}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External System" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_externalsystemid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_externalsystemid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5299892-4630-d902-2859-2ac9e1a968e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{38d436b7-bb27-cd46-55d9-b2d745628438}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32e8b6b0-d86b-a630-1cb4-ee9b201b6beb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{25586615-9ca2-908b-5648-e404c45c4358}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c29208c1-c639-430c-8eba-76055d064a69}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell id="{94970106-8b7b-d723-eaab-6b3dbdb88657}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>TelcoApps_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,environmentvariabledefinitiondescription" xml:space="preserve">
+    <value>The key used to access Azure Maps S1 or greater subscription.</value>
+    <comment>label</comment>
+  </data>
+  <data name="100000:label,environmentvariabledefinitiondisplayname" xml:space="preserve">
+    <value>Azure Maps Subscription Key (S1+)</value>
+    <comment>label</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoftdynamics365telcomstelco71983" xml:space="preserve">
+    <value>Microsoft Dynamics 365 Telco</value>
+    <comment> 'microsoftdynamics365telco' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,TelcoApps" xml:space="preserve">
+    <value>Telco Apps</value>
+    <comment> 'TelcoApps' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Geographic Address{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Geographic Address' : Description for systemform in Entity FormXml ID: '{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}'</comment>
+  </data>
+  <data name="1:Description,Geographic Location{0f108385-2b86-4abe-ac85-7e86fb76cba0}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Geographic Location' : Description for systemform in Entity FormXml ID: '{0f108385-2b86-4abe-ac85-7e86fb76cba0}'</comment>
+  </data>
+  <data name="1:Description,Local Place{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Local Place' : Description for systemform in Entity FormXml ID: '{2d6c3600-75d4-4bfb-b161-af7b323c96c7}'</comment>
+  </data>
+  <data name="1:Description,Network Resource{3ad219f1-138b-427a-880a-2586d195e9b4}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Network Resource' : Description for systemform in Entity FormXml ID: '{3ad219f1-138b-427a-880a-2586d195e9b4}'</comment>
+  </data>
+  <data name="1:Description,Service Area{afb00e07-3207-4811-8d38-4eda83b75c6f}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Service Area' : Description for systemform in Entity FormXml ID: '{afb00e07-3207-4811-8d38-4eda83b75c6f}'</comment>
+  </data>
+  <data name="1:label,Geographic Address08ae3d0b-252f-47bb-9562-3907202145b5" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Geographic Address' : label for section in Entity FormXml ID: '08ae3d0b-252f-47bb-9562-3907202145b5'</comment>
+  </data>
+  <data name="1:label,Geographic Addressde883855-f222-4247-a554-88e9583b9c2c" xml:space="preserve">
+    <value>Find Address</value>
+    <comment>'Geographic Address' : label for tab in Entity FormXml ID: 'de883855-f222-4247-a554-88e9583b9c2c'</comment>
+  </data>
+  <data name="1:label,Geographic Address{0cc96484-ccd6-8209-a8bd-1787909eecb1}" xml:space="preserve">
+    <value>Street Number Last Suffix</value>
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{0cc96484-ccd6-8209-a8bd-1787909eecb1}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{21a5ed72-e88c-404e-9f8e-af6f2547383d}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{21a5ed72-e88c-404e-9f8e-af6f2547383d}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{4792a846-8ee8-1dec-c151-3e8bc49ded5c}" xml:space="preserve">
+    <value>Street Number</value>
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{4792a846-8ee8-1dec-c151-3e8bc49ded5c}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{5664222d-deb8-a846-e9a3-c9d2837647ca}" xml:space="preserve">
+    <value>Address Status</value>
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{5664222d-deb8-a846-e9a3-c9d2837647ca}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{9e5f2b12-b891-4986-8756-68eb6d418f1f}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{9e5f2b12-b891-4986-8756-68eb6d418f1f}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{a940c147-2e74-4a22-9591-e3f81f429ef2}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{a940c147-2e74-4a22-9591-e3f81f429ef2}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{d5acb1e8-5bd4-4522-8932-7f36d5dcd9ee}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{d5acb1e8-5bd4-4522-8932-7f36d5dcd9ee}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{d868496e-f245-4ea3-8eb8-6d11300d2dcf}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{d868496e-f245-4ea3-8eb8-6d11300d2dcf}'</comment>
+  </data>
+  <data name="1:label,Geographic Address{ff99d25a-4766-4d0f-a7cc-88f7d2e891b6}" xml:space="preserve">
+    <value />
+    <comment>'Geographic Address' : label for cell in Entity FormXml ID: '{ff99d25a-4766-4d0f-a7cc-88f7d2e891b6}'</comment>
+  </data>
+  <data name="1:label,Geographic Location{96ca7e70-0bfa-465a-9e86-6af3a2b5f679}" xml:space="preserve">
+    <value>JSON Metadata</value>
+    <comment>'Geographic Location' : label for cell in Entity FormXml ID: '{96ca7e70-0bfa-465a-9e86-6af3a2b5f679}'</comment>
+  </data>
+  <data name="1:label,Geographic Location{e27e9387-c93c-0019-38ed-19c8547c77d9}" xml:space="preserve">
+    <value>Azure Maps JSON Metadata</value>
+    <comment>'Geographic Location' : label for cell in Entity FormXml ID: '{e27e9387-c93c-0019-38ed-19c8547c77d9}'</comment>
+  </data>
+  <data name="1:label,Local Place{0a1aa605-d8be-7883-6e07-011ee49bc08c}" xml:space="preserve">
+    <value>Map</value>
+    <comment>'Local Place' : label for section in Entity FormXml ID: '{0a1aa605-d8be-7883-6e07-011ee49bc08c}'</comment>
+  </data>
+  <data name="1:label,Local Place{805a4837-657e-0387-93a6-91c731a0a95b}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Local Place' : label for cell in Entity FormXml ID: '{805a4837-657e-0387-93a6-91c731a0a95b}'</comment>
+  </data>
+  <data name="1:label,Network Resource{02707d0c-533e-c036-4510-102e6ea070d1}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Network Resource' : label for cell in Entity FormXml ID: '{02707d0c-533e-c036-4510-102e6ea070d1}'</comment>
+  </data>
+  <data name="1:label,Network Resource{08a2c9e2-ac40-4418-8e3b-0d44c4ecd24a}" xml:space="preserve">
+    <value>section</value>
+    <comment>'Network Resource' : label for section in Entity FormXml ID: '{08a2c9e2-ac40-4418-8e3b-0d44c4ecd24a}'</comment>
+  </data>
+  <data name="1:label,Network Resource{1c6a4617-aa42-1a03-3b49-4bc2380a8916}" xml:space="preserve">
+    <value>Map</value>
+    <comment>'Network Resource' : label for section in Entity FormXml ID: '{1c6a4617-aa42-1a03-3b49-4bc2380a8916}'</comment>
+  </data>
+  <data name="1:label,Network Resource{4bdd57be-7ead-8482-3917-3b5749e2ee13}" xml:space="preserve">
+    <value>Code</value>
+    <comment>'Network Resource' : label for cell in Entity FormXml ID: '{4bdd57be-7ead-8482-3917-3b5749e2ee13}'</comment>
+  </data>
+  <data name="1:label,Network Resource{77690856-daeb-53bc-7a31-e70cb38cae71}" xml:space="preserve">
+    <value>String</value>
+    <comment>'Network Resource' : label for cell in Entity FormXml ID: '{77690856-daeb-53bc-7a31-e70cb38cae71}'</comment>
+  </data>
+  <data name="1:label,Network Resource{cde8f8d5-6905-4535-9c37-c11d02dc5142}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'Network Resource' : label for tab in Entity FormXml ID: '{cde8f8d5-6905-4535-9c37-c11d02dc5142}'</comment>
+  </data>
+  <data name="1:label,Network Resource{d49990de-d4d8-bb78-bbc9-7b2039cecb8e}" xml:space="preserve">
+    <value>Network Zone</value>
+    <comment>'Network Resource' : label for cell in Entity FormXml ID: '{d49990de-d4d8-bb78-bbc9-7b2039cecb8e}'</comment>
+  </data>
+  <data name="1:label,Service Area{0e1a4b79-fc94-4056-8fb0-bda85f41f071}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{0e1a4b79-fc94-4056-8fb0-bda85f41f071}'</comment>
+  </data>
+  <data name="1:label,Service Area{27b34442-e9d9-ae58-5287-01e730a94078}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{27b34442-e9d9-ae58-5287-01e730a94078}'</comment>
+  </data>
+  <data name="1:label,Service Area{3b95fb24-9ef3-4e6e-ac1b-3a79e9063e73}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{3b95fb24-9ef3-4e6e-ac1b-3a79e9063e73}'</comment>
+  </data>
+  <data name="1:label,Service Area{5363036f-b332-4802-a71f-d02be1558522}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{5363036f-b332-4802-a71f-d02be1558522}'</comment>
+  </data>
+  <data name="1:label,Service Area{582f2d85-7cfa-415e-bd90-587e4b30e6d6}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{582f2d85-7cfa-415e-bd90-587e4b30e6d6}'</comment>
+  </data>
+  <data name="1:label,Service Area{60f23216-9391-4e2d-8946-1a612d46a5c6}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{60f23216-9391-4e2d-8946-1a612d46a5c6}'</comment>
+  </data>
+  <data name="1:label,Service Area{a7817e78-971c-4401-8684-63f3b3dcd0f7}" xml:space="preserve">
+    <value />
+    <comment>'Service Area' : label for cell in Entity FormXml ID: '{a7817e78-971c-4401-8684-63f3b3dcd0f7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Geographic Address{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Geographic Address' : LocalizedName for systemform in Entity FormXml ID: '{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Geographic Address{35A1732A-D029-EB11-A813-000D3A111312}" xml:space="preserve">
+    <value>Top 15 Zip/Postal Codes</value>
+    <comment>'Geographic Address' : LocalizedName for Visualization '{35A1732A-D029-EB11-A813-000D3A111312}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Geographic Location{0f108385-2b86-4abe-ac85-7e86fb76cba0}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Geographic Location' : LocalizedName for systemform in Entity FormXml ID: '{0f108385-2b86-4abe-ac85-7e86fb76cba0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Local Place{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Local Place' : LocalizedName for systemform in Entity FormXml ID: '{2d6c3600-75d4-4bfb-b161-af7b323c96c7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Local Place{E268C528-C729-EB11-A813-000D3A111312}" xml:space="preserve">
+    <value>Local Places by Type</value>
+    <comment>'Local Place' : LocalizedName for Visualization '{E268C528-C729-EB11-A813-000D3A111312}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Network Resource{3ad219f1-138b-427a-880a-2586d195e9b4}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Network Resource' : LocalizedName for systemform in Entity FormXml ID: '{3ad219f1-138b-427a-880a-2586d195e9b4}'</comment>
+  </data>
+  <data name="1:LocalizedName,Network Resource{fdaec4c6-eb91-4937-ade8-c79e892da53b}" xml:space="preserve">
+    <value>Hierarchy Quick View Form</value>
+    <comment>'Network Resource' : LocalizedName for systemform in Entity FormXml ID: '{fdaec4c6-eb91-4937-ade8-c79e892da53b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Network Zone{C37088C5-C729-EB11-A813-000D3A111312}" xml:space="preserve">
+    <value>Network Zones by Network</value>
+    <comment>'Network Zone' : LocalizedName for Visualization '{C37088C5-C729-EB11-A813-000D3A111312}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Service Area{afb00e07-3207-4811-8d38-4eda83b75c6f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Service Area' : LocalizedName for systemform in Entity FormXml ID: '{afb00e07-3207-4811-8d38-4eda83b75c6f}'</comment>
+  </data>
+  <data name="222:LocalizedName,{e098dfc9-cd29-eb11-a813-000d3a111312}" xml:space="preserve">
+    <value>Place Management Dashboard</value>
+    <comment>'DashBoard'</comment>
+  </data>
+  <data name="29:LocalizedName,{3f999e4b-8d8e-eb11-a812-000d3a1f6fdb}" xml:space="preserve">
+    <value>Geographic Location - Create Geographic Points On Update of Azure Maps JSON Metadata</value>
+    <comment>'Geographic Location - Create Geographic Points On Update of Azure Maps JSON Metadata' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{40999e4b-8d8e-eb11-a812-000d3a1f6fdb}" xml:space="preserve">
+    <value>Geographic Location - Update JSON in Geoagraphic Location on change of radius</value>
+    <comment>'Geographic Location - Update JSON in Geoagraphic Location on change of radius' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="80:Description,mstelco_PlaceManagement" xml:space="preserve">
+    <value>This model-driven application provides tracking for all of the physical locations across a service provider’s network. It supports the geographic mailing addresses for residences, multi-dwelling apartment buildings, and commercial and retail areas as well as support for describing regions and polygons through geocoded map points. Additional handling for tracking the locations of and segmenting network and plant resources, regional operating centers, service technology, and the movement of equipment. The app integrates with Azure Maps API for Address lookup and normalization.</value>
+    <comment> 'mstelco_PlaceManagement' : Description for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,mstelco_PlaceManagement" xml:space="preserve">
+    <value>Place Management</value>
+    <comment> 'mstelco_PlaceManagement' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,mstelco_PlaceManagement" xml:space="preserve">
+    <value>Place Management</value>
+    <comment>'mstelco_PlaceManagement' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_Geographic" xml:space="preserve">
+    <value>Geographic</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' Group 'mstelco_Geographic'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_GeographicAddress" xml:space="preserve">
+    <value>Geo Addresses</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_GeographicAddress'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_GeographicLocation" xml:space="preserve">
+    <value>Geo Locations</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_GeographicLocation'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_GeographicPlace" xml:space="preserve">
+    <value>Geo Places</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_GeographicPlace'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_GeographicSubAddress" xml:space="preserve">
+    <value>Geo Sub-Addresses</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_GeographicSubAddress'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_Local" xml:space="preserve">
+    <value>Local</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' Group 'mstelco_Local'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_Networking" xml:space="preserve">
+    <value>Networking</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' Group 'mstelco_Networking'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_NetworkOperatingCenter" xml:space="preserve">
+    <value>NOCs</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_NetworkOperatingCenter'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_NetworkResource" xml:space="preserve">
+    <value>Resources</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_NetworkResource'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_NetworkResourceType" xml:space="preserve">
+    <value>Resource Types</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_NetworkResourceType'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_NetworkZone" xml:space="preserve">
+    <value>Zones</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_NetworkZone'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_Place" xml:space="preserve">
+    <value>Place</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' Group 'mstelco_Place'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_PlaceManagement" xml:space="preserve">
+    <value>Place Management</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' Area 'mstelco_PlaceManagement'</comment>
+  </data>
+  <data name="81:Title,mstelco_PlaceManagementmstelco_ServiceAreaTechnology" xml:space="preserve">
+    <value>Svc Area Technologies</value>
+    <comment>Title for Area 'mstelco_PlaceManagement' SubArea 'mstelco_ServiceAreaTechnology'</comment>
+  </data>
+</root>

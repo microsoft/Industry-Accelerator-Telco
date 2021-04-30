@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Place Management Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{e098dfc9-cd29-eb11-a813-000d3a111312}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="true" verticallayout="true" id="{9442b4b0-461c-4966-90c9-75a33977452d}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{bcfd2d10-8548-4f0e-85ac-ab29921b8866}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="9" showlabel="false" id="{6f02c7da-efb2-4518-aca4-4383a58a9e4b}" auto="false">
+                          <labels>
+                            <label description="Geographic Addresses" languagecode="1033" />
+                          </labels>
+                          <control id="Component14ba252" uniqueid="{6e3412de-d5a9-23c0-ed25-abc768a52e60}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>mstelco_geographicaddress</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>7</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{0FF0F7AD-A3C3-413C-9514-BCD99E1482D3}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{35A1732A-D029-EB11-A813-000D3A111312}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="9" showlabel="false" id="{253ce9f9-19e1-44ea-9615-634fcb8faea5}" auto="false">
+                          <labels>
+                            <label description="Local Place" languagecode="1033" />
+                          </labels>
+                          <control id="Componentcce72f8" uniqueid="{5c165710-eb89-a5d4-34cd-de2bdeb70d94}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>mstelco_localplace</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>7</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{CE16113D-F413-47DB-96C4-EF8E219D0E86}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{E268C528-C729-EB11-A813-000D3A111312}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="9" showlabel="false" id="{2ed63114-6d18-4366-98db-93124be4d37f}" auto="false">
+                          <labels>
+                            <label description="Network Zone" languagecode="1033" />
+                          </labels>
+                          <control id="Component51ce688" uniqueid="{88b8d9b8-b8bc-c244-d656-091e4b922731}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>mstelco_networkzone</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>7</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{787E9C86-484A-4DD9-A359-E63CF01C0C7D}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{C37088C5-C729-EB11-A813-000D3A111312}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+          <tab showlabel="true" verticallayout="true" id="{f8b56085-95fc-472b-8aba-d6ee99a86782}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{f6ca3ad3-4787-4486-ae4a-79c73b281f26}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="3" rowspan="12" showlabel="false" id="{eca44afe-21ea-40c3-8bf6-ee9dbc8cccd3}" auto="false">
+                          <labels>
+                            <label description="Places" languagecode="1033" />
+                          </labels>
+                          <control id="Componentfe97356" uniqueid="{972d5552-6a65-cce7-05b4-02a4507ae368}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>mstelco_place</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{F03DCFBC-6063-4A27-8700-5C09DE6AFE0B}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.5</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

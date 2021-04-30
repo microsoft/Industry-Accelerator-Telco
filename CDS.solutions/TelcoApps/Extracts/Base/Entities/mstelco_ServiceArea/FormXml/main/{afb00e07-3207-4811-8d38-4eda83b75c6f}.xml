@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{afb00e07-3207-4811-8d38-4eda83b75c6f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{e76b1b49-42d6-4394-8cfb-8c7f63b4adf4}" IsUserDefined="1" name="{e76b1b49-42d6-4394-8cfb-8c7f63b4adf4}" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9cb2936a-55c5-45e0-a6a6-98ef062764fd}" name="{9cb2936a-55c5-45e0-a6a6-98ef062764fd}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1">
+              <sections>
+                <section name="{e76b1b49-42d6-4394-8cfb-8c7f63b4adf4}_section_4" showlabel="false" showbar="false" locklevel="0" id="{2667b3b8-1478-8a21-6706-dc92a7ecd73a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{27b34442-e9d9-ae58-5287-01e730a94078}" showlabel="false" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_description" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="mstelco_description" disabled="false" uniqueid="{b493618d-9937-23d0-a318-a60bab236002}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{b493618d-9937-23d0-a318-a60bab236002}" solutionaction="Added">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
+            <parameters>
+              <datafieldname>mstelco_description</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="1">
+            <parameters>
+              <datafieldname>mstelco_description</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="mstelco_PCFControls.DataFromMap">
+            <parameters>
+              <jsonMapData>mstelco_description</jsonMapData>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <header id="{e3427d81-5860-4ff1-ab21-55cea5e9f3d1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b34c559d-ac82-48ab-a5ee-f0f10d129fea}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{4f040bd1-20df-4e9c-ba62-c60e3a5a3b26}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{99a35371-ffb4-4954-9782-9fc5764a7452}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{3b95fb24-9ef3-4e6e-ac1b-3a79e9063e73}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0e1a4b79-fc94-4056-8fb0-bda85f41f071}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{582f2d85-7cfa-415e-bd90-587e4b30e6d6}" showlabel="false" ordinalvalue="30002" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f3cc9ed2-8db2-4932-89c6-66342c19d827}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0b104988-59fc-44b3-adb5-4820dc3f0159}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{aab9695e-ea73-42df-b53d-7152d183c5f1}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{8f967ad6-e98c-4b29-a134-86d9fbc581da}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{60f23216-9391-4e2d-8946-1a612d46a5c6}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a7817e78-971c-4401-8684-63f3b3dcd0f7}" showlabel="false" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5363036f-b332-4802-a71f-d02be1558522}" showlabel="false" ordinalvalue="30002" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

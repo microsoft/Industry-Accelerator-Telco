@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>mstelco_PlaceManagement</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="mstelco_PlaceManagement" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Place Management" />
+      </Titles>
+      <Group Id="mstelco_Place" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Place" />
+        </Titles>
+        <SubArea Id="NewSubArea_103ca2e1" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="922bad81-f96b-eb11-a812-000d3a9841e6" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ToolTipResourseId="Dashboards_ToolTip" />
+        <SubArea Id="mstelco_Place" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_place" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="mstelco_Geographic" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Geographic" />
+        </Titles>
+        <SubArea Id="mstelco_GeographicPlace" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="mstelco_geographicplace" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Geo Places" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_GeographicAddress" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_geographicaddress" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Geo Addresses" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_GeographicSubAddress" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_geographicsubaddress" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Geo Sub-Addresses" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_GeographicLocation" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_geographiclocation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Geo Locations" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="mstelco_Local" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Local" />
+        </Titles>
+        <SubArea Id="mstelco_LocalPlace" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_localplace" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="mstelco_Networking" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Networking" />
+        </Titles>
+        <SubArea Id="mstelco_Network" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_network" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="mstelco_NetworkResource" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_networkresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Resources" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_NetworkResourceType" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_networkresourcetype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Resource Types" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_ServiceArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_servicearea" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="mstelco_NetworkZone" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_networkzone" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Zones" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_ServiceAreaTechnology" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_serviceareatechnology" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Svc Area Technologies" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="mstelco_NetworkOperatingCenter" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mstelco_networkoperatingcenter" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="NOCs" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Place Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

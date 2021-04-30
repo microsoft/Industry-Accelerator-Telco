@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2d6c3600-75d4-4bfb-b161-af7b323c96c7}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c511c696-5e36-4466-a058-93b544015d40}" IsUserDefined="1" name="{c511c696-5e36-4466-a058-93b544015d40}" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="1">
+              <sections>
+                <section name="{c511c696-5e36-4466-a058-93b544015d40}_section_3" showlabel="false" showbar="false" locklevel="0" id="{0a1aa605-d8be-7883-6e07-011ee49bc08c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="Map" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{805a4837-657e-0387-93a6-91c731a0a95b}" showlabel="false" locklevel="0" rowspan="10" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_description" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="mstelco_description" disabled="false" uniqueid="{3eb7a310-c6d4-cca1-247a-0aa6d1862b61}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{3eb7a310-c6d4-cca1-247a-0aa6d1862b61}" solutionaction="Added">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
+            <parameters>
+              <datafieldname>mstelco_description</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="1">
+            <parameters>
+              <datafieldname>mstelco_description</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="mstelco_PCFControls.DataFromMap">
+            <parameters>
+              <jsonMapData>mstelco_description</jsonMapData>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <header id="{19b32eb2-30ac-463f-9c23-7a6e564ad25e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ad47d8e0-52e7-47bb-9415-ce12322bc546}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{040d48c4-6718-417c-af11-53b3dda8737c}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{60054b80-1efb-4f45-9dbd-e17ca0a6e67e}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </header>
+      <footer id="{8383067d-71e0-424e-82df-503abe1a07ff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2aebd91b-84e7-40d2-8356-f9c6efa3e191}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{5e093f18-5bf5-411d-9bc2-9353fa8e7f8e}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{afb2c92b-cd8f-4cc5-aa3a-215144222f9e}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

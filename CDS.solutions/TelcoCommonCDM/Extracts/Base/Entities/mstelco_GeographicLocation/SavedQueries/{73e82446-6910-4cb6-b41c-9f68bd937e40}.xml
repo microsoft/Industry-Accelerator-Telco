@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{73e82446-6910-4cb6-b41c-9f68bd937e40}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mstelco_name" select="1" icon="1" preview="1">
+        <row name="result" id="mstelco_geographiclocationid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_geometrictype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_accuracy" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_spatialreference" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_pointcount" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_serviceareaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_geographiclocation">
+          <attribute name="mstelco_name" />
+          <order attribute="mstelco_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="mstelco_spatialreference" operator="eq" value="{1}" />
+            <condition attribute="mstelco_serviceareaid" operator="like" value="{0}" />
+            <condition attribute="mstelco_pointcount" operator="eq" value="{1}" />
+            <condition attribute="mstelco_name" operator="like" value="{0}" />
+            <condition attribute="mstelco_geometrictype" operator="like" value="{0}" />
+            <condition attribute="mstelco_externalsystemid" operator="like" value="{0}" />
+            <condition attribute="mstelco_externalid" operator="like" value="{0}" />
+            <condition attribute="mstelco_code" operator="like" value="{0}" />
+            <condition attribute="mstelco_accuracy" operator="like" value="{0}" />
+          </filter>
+          <attribute name="mstelco_spatialreference" />
+          <attribute name="mstelco_serviceareaid" />
+          <attribute name="mstelco_pointcount" />
+          <attribute name="mstelco_geometrictype" />
+          <attribute name="mstelco_accuracy" />
+          <attribute name="mstelco_geographiclocationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Geographic Locations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

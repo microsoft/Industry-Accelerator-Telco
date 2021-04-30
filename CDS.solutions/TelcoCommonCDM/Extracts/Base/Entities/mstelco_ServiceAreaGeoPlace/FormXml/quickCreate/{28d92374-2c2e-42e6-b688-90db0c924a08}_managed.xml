@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{28d92374-2c2e-42e6-b688-90db0c924a08}</formid>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{a3c87126-e227-4062-a708-b3ef82762428}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{dbd72188-b041-4839-98db-fc67a78b3178}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{848613cd-adac-8137-e700-0cb5e9720de8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Area" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_serviceareaid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_serviceareaid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81004432-8710-eea8-2467-8a1ad357d10c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographic Place" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geographicplaceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_geographicplaceid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a0ccb73-a248-d522-612b-eeb33a527358}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Place Status" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_placestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_placestatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{fa91ffae-6134-44b5-8d9a-d55e72ef98a3}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c91a5a5-495b-4925-afc3-5627245ee02a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e5c0126b-7924-4f3c-b938-f02c586aaf72}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6e127507-fa4d-49f9-aeb7-628ec3df7004}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

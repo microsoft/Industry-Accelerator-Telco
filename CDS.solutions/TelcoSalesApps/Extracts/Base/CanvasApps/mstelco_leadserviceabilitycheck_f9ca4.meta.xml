@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mstelco_leadserviceabilitycheck_f9ca4</Name>
+  <AppVersion>2021-03-29T23:07:40Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21032.45.0</CreatedByClientVersion>
+  <MinClientVersion>3.21032.45.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"800","primaryDeviceHeight":"600","sienaVersion":"e70b50f1-3507-45a8-88ff-dec27f36c4af","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Web","publisherVersion":"3.21032.45","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 99, 177, 1)</BackgroundColor>
+  <DisplayName>Lead Serviceability Check</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"dcc13837-4290-4a4e-932c-625322b27e34":{"id":"/providers/microsoft.powerapps/apis/shared_mstelco-5ffind-20location-20with-20azure-20v2-5fe7c96f47d5ceedcf","displayName":"Find Location with Azure v2","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["Defaulttitle"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["map"],"customApiLogicalName":"mstelco_5ffind-20location-20with-20azure-20v2","isCustomApiSolutionAware":true}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Geographic Addresses":{"entitySetName":"mstelco_geographicaddresses","logicalName":"mstelco_geographicaddress"},"Geographic Sub-Addresses":{"entitySetName":"mstelco_geographicsubaddresses","logicalName":"mstelco_geographicsubaddress"},"Geographic Locations":{"entitySetName":"mstelco_geographiclocations","logicalName":"mstelco_geographiclocation"},"Geographic Points":{"entitySetName":"mstelco_geographicpoints","logicalName":"mstelco_geographicpoint"},"Leads":{"entitySetName":"leads","logicalName":"lead"},"Geographic Places":{"entitySetName":"mstelco_geographicplaces","logicalName":"mstelco_geographicplace"},"Service Areas":{"entitySetName":"mstelco_serviceareas","logicalName":"mstelco_servicearea"},"Service Area Geographical Places":{"entitySetName":"mstelco_serviceareageoplaces","logicalName":"mstelco_serviceareageoplace"},"Notes":{"entitySetName":"annotations","logicalName":"annotation"},"Environment Variable Values":{"entitySetName":"environmentvariablevalues","logicalName":"environmentvariablevalue"},"Environment Variable Definitions":{"entitySetName":"environmentvariabledefinitions","logicalName":"environmentvariabledefinition"},"Lead Serviceability Flow":{"entitySetName":"mstelco_leadserviceabilityflows","logicalName":"mstelco_leadserviceabilityflow"},"Process Stages":{"entitySetName":"processstages","logicalName":"processstage"},"Resources":{"entitySetName":"resources","logicalName":"resource"},"Local Places":{"entitySetName":"mstelco_localplaces","logicalName":"mstelco_localplace"},"Network Resources":{"entitySetName":"mstelco_networkresources","logicalName":"mstelco_networkresource"},"Network Resource Types":{"entitySetName":"mstelco_networkresourcetypes","logicalName":"mstelco_networkresourcetype"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mstelco_5ffind-20location-20with-20azure-20v2","componenttype":372,"componenttypeplatformname":"connector"},{"logicalname":"mstelco_geographicaddress","componenttype":1},{"logicalname":"mstelco_geographicsubaddress","componenttype":1},{"logicalname":"mstelco_geographiclocation","componenttype":1},{"logicalname":"mstelco_geographicpoint","componenttype":1},{"logicalname":"lead","componenttype":1},{"logicalname":"mstelco_geographicplace","componenttype":1},{"logicalname":"mstelco_servicearea","componenttype":1},{"logicalname":"mstelco_serviceareageoplace","componenttype":1},{"logicalname":"annotation","componenttype":1},{"logicalname":"environmentvariablevalue","componenttype":1},{"logicalname":"environmentvariabledefinition","componenttype":1},{"logicalname":"mstelco_leadserviceabilityflow","componenttype":1},{"logicalname":"processstage","componenttype":1},{"logicalname":"resource","componenttype":1},{"logicalname":"mstelco_localplace","componenttype":1},{"logicalname":"mstelco_networkresource","componenttype":1},{"logicalname":"mstelco_networkresourcetype","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/mstelco_leadserviceabilitycheck_f9ca4_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mstelco_leadserviceabilitycheck_f9ca4_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

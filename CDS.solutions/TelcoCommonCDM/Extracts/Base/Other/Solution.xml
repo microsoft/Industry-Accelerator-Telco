@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21034.182" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TelcoCommonCDM</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Telco Common CDM" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.3.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365telco</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Telco" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mstelco</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>71983</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="mstelco_externalsystem" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_geographicaddress" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_geographiclocation" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_geographicplace" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_geographicpoint" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_geographicsubaddress" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_localplace" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_network" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_networkoperatingcenter" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_networkresource" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_networkresourcetype" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_networkzone" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_place" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_servicearea" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_serviceareageoplace" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_serviceareatechnology" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_addressleveltype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_addresssubunittype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_addresstype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_circleradiusunit" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_elevationunit" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_evenorodd" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_geographicplacetype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_geometrictype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_networkstatus" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_networktype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_placeserviceabilitystatus" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_placestatus" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_placetype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_streettype" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_subaddresstype" behavior="0" />
+      <RootComponent type="29" id="{2657457a-6020-eb11-a813-000d3a4df348}" behavior="0" />
+      <RootComponent type="29" id="{75ebd3ff-c93e-4bd3-b09c-a669974bab84}" behavior="0" />
+      <RootComponent type="29" id="{84b0ff77-1e91-eb11-b1ac-000d3a9dfd8c}" behavior="0" />
+      <RootComponent type="29" id="{8c343891-6220-eb11-a813-000d3a4df348}" behavior="0" />
+      <RootComponent type="29" id="{932e61f1-2751-eb11-a813-000d3a8f29cd}" behavior="0" />
+      <RootComponent type="29" id="{b577f783-781b-4bed-8472-8ea90bf402c4}" behavior="0" />
+      <RootComponent type="29" id="{dbd2dc8f-3eed-43b7-8494-f25a78a35926}" behavior="0" />
+      <RootComponent type="60" id="{0a397d2a-d0cb-4605-b196-67e99583bc2d}" behavior="0" />
+      <RootComponent type="60" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" behavior="0" />
+      <RootComponent type="60" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" behavior="0" />
+      <RootComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      <RootComponent type="60" id="{28d92374-2c2e-42e6-b688-90db0c924a08}" behavior="0" />
+      <RootComponent type="60" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" behavior="0" />
+      <RootComponent type="60" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" behavior="0" />
+      <RootComponent type="60" id="{3ca36ef2-18e0-47b0-ab3b-63eede6d35ff}" behavior="0" />
+      <RootComponent type="60" id="{479ad2e0-2c9b-49db-8605-cd8ec911555e}" behavior="0" />
+      <RootComponent type="60" id="{4d5dbb1f-7126-4892-a675-455ca2cebf6e}" behavior="0" />
+      <RootComponent type="60" id="{5c544c5e-b916-4b3e-b57a-0591767106f0}" behavior="0" />
+      <RootComponent type="60" id="{63fa7ef0-d6bd-46b4-b893-7e9c5f10f6f0}" behavior="0" />
+      <RootComponent type="60" id="{687552b2-4182-4cbc-89d8-6f6aa4de27b8}" behavior="0" />
+      <RootComponent type="60" id="{83a1f260-eb81-444a-adf0-383d2141b1d2}" behavior="0" />
+      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      <RootComponent type="60" id="{85765d07-b225-4c16-8f1c-8ce449fb910a}" behavior="0" />
+      <RootComponent type="60" id="{88c9b84a-ac47-4566-9173-ec3bf60e008a}" behavior="0" />
+      <RootComponent type="60" id="{962b69fc-1428-49f7-b5da-d80815a80b91}" behavior="0" />
+      <RootComponent type="60" id="{9b672750-b168-4aaf-9ff9-0759530966d3}" behavior="0" />
+      <RootComponent type="60" id="{ac53fa70-af69-4f86-84af-b9d19b4ce1d6}" behavior="0" />
+      <RootComponent type="60" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" behavior="0" />
+      <RootComponent type="60" id="{c72de921-d79a-4e70-af3c-b6d94f7ca057}" behavior="0" />
+      <RootComponent type="60" id="{c88dc618-dce5-4fa7-9a7b-5e6e6e4d512d}" behavior="0" />
+      <RootComponent type="60" id="{d946d71c-5802-45fd-9e8d-c8f0633172d9}" behavior="0" />
+      <RootComponent type="60" id="{dbcedc1d-f6ff-4ea5-88aa-1baff059391d}" behavior="0" />
+      <RootComponent type="60" id="{ee619020-837d-426d-9e3c-9a3c1d9746ab}" behavior="0" />
+      <RootComponent type="60" id="{efe9c2f4-e1a3-41bc-9f93-e674e7c1a0a2}" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ExternalSystem.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ExternalSystem16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ExternalSystem32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicAddress.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicAddress16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicAddress32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicLocation.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicLocation16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicLocation32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPlace.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPlace16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPlace32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPoint.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPoint16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicPoint32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicSubAddress.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicSubAddress16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_GeographicSubAddress32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_LocalPlace.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_LocalPlace16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_LocalPlace32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Network.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Network16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Network32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkOperatingCenter.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkOperatingCenter16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkOperatingCenter32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResource.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResource16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResource32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResourceType.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResourceType16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkResourceType32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkZone.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkZone16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_NetworkZone32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Place.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Place16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_Place32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceArea.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceArea16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceArea32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaGeoPlace.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaGeoPlace16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaGeoPlace32.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaTechnology.svg" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaTechnology16.png" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_ServiceAreaTechnology32.png" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <Dependent key="0" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2103.4016)" />
+        <Dependent key="0" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Dependent key="2" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="2" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2103.4016)" />
+        <Dependent key="2" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

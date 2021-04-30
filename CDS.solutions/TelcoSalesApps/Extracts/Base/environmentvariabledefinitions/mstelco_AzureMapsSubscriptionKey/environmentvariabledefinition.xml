@@ -1,0 +1,12 @@
+<environmentvariabledefinition schemaname="mstelco_AzureMapsSubscriptionKey">
+  <description default="The key used to access Azure Maps S1 or greater subscription.">
+    <label description="The key used to access Azure Maps S1 or greater subscription." languagecode="1033" />
+  </description>
+  <displayname default="Azure Maps Subscription Key (S1+)">
+    <label description="Azure Maps Subscription Key (S1+)" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

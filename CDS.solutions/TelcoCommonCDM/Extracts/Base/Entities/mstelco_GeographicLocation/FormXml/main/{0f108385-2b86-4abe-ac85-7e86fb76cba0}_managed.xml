@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0f108385-2b86-4abe-ac85-7e86fb76cba0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7399aea6-0e21-4d58-a46d-3e144244c841}" IsUserDefined="1" name="{7399aea6-0e21-4d58-a46d-3e144244c841}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{c1a71a3e-b83b-4528-8c98-f777bcf17d2d}" name="{c1a71a3e-b83b-4528-8c98-f777bcf17d2d}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{af18ae55-fe2d-499c-8663-0459bc2fe95a}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{129790c4-c1c3-e4b0-619e-02ca4dd7356a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_code" disabled="true" uniqueid="{094bce15-e5be-5c26-105a-3716db8dbe5c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{125111e3-a248-583a-a049-e1be85c75935}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geometric Type" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geometrictype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_geometrictype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{438e4605-8338-6949-dade-d21396a02195}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Circle Radius" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_circleradius" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="mstelco_circleradius" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8a41948-53b0-0389-7d68-3066b7bad31e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Circle Radius Unit" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_circleradiusunit" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_circleradiusunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcae0267-0289-1d4d-70dc-abed827a73d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Accuracy" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_accuracy" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_accuracy" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e9e7a28-b658-2911-4103-a8c01cb73139}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Spatial Reference" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_spatialreference" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mstelco_spatialreference" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d536e8a7-bbfe-43de-99c6-cec53ac15d26}" locklevel="0">
+                        <labels>
+                          <label description="Service Area" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_serviceareaid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_serviceareaid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6488eea-4681-5199-e8a4-6a4da57dc865}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mstelco_description" disabled="false" uniqueid="{c39958e3-97ba-5024-cb9b-e871470320b1}" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+                <section name="{7399aea6-0e21-4d58-a46d-3e144244c841}_section_3" showlabel="true" showbar="false" locklevel="0" id="{c1a98d1b-7646-1656-7e4a-84a516567785}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Points Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dd62a2c6-9dc8-eac7-5e0e-c1ec19c7e65a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Point Count" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_pointcount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mstelco_pointcount" disabled="true" uniqueid="{e242c623-495c-41b5-dd9a-7bcaaea9a726}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dba87727-4a52-e7a2-e3dd-0a51bee58715}" showlabel="true" locklevel="0" rowspan="10">
+                        <labels>
+                          <label description="Azure Maps JSON Metadata" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_jsonmetadata" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="mstelco_jsonmetadata" disabled="true" uniqueid="{16698994-b0eb-1239-1c6e-743890184e71}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{4cbd2d8d-6d99-4c85-a24e-36652a1a5c51}" locklevel="0" availableforphone="true" rowspan="10">
+                        <labels>
+                          <label description="GeoJSON" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geojson" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="mstelco_geojson" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{945969f6-8106-4cf2-819f-f43822cd5be5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{d7518bc6-07e2-4857-bc96-df4170933345}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{7399aea6-0e21-4d58-a46d-3e144244c841}_section_4" showlabel="false" showbar="false" locklevel="0" id="{5bda38b3-da96-2eda-9185-39ca7da89573}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Map" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{11cb6eab-3977-17b5-0064-d0ad3a724505}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{7399aea6-0e21-4d58-a46d-3e144244c841}_section_2" showlabel="true" showbar="false" locklevel="0" id="{3a39a44c-d761-49e7-1ebe-782c313a10b3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Coordinates" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{21303c4d-d84b-90ba-b867-97c515dba988}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bounding Box NW Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_boundingboxnwlatitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_boundingboxnwlatitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8605c346-28d4-51a5-073e-6d43d553ae89}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bounding Box NW Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_boundingboxnwlongitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_boundingboxnwlongitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{543871c6-8117-4be3-7015-247126766023}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bounding Box SE Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_boundingboxselatitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_boundingboxselatitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2810b09c-881d-08c8-cc9d-c18310b7942a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bounding Box SE Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_boundingboxselongitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_boundingboxselongitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54d91637-e680-a4e9-b724-a5e7d73ece7e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Center Latitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_centerlatitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_centerlatitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d86da15-a023-372e-c458-8d24155b9889}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Center Longitude" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_centerlongitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="mstelco_centerlongitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85d7b816-4118-bbce-5bd9-5a1c3a6bd231}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="geographicpoints" id="{28edcd98-db7e-146e-3d48-0c72b1068694}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Geographic Points" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{dad4c77a-cb45-d2d3-936b-1b8018bd5b9b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb66c3be-3841-ec0d-723e-32e277934b09}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Geographic Points" languagecode="1033" />
+                        </labels>
+                        <control id="geographicalpoint_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{56ae1780-35cd-59b2-8741-27127eeb8743}">
+                          <parameters>
+                            <ViewId>{577F5782-BD27-EB11-A813-000D3A4DF1CD}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mstelco_geographiclocation_mstelco_geographicpoint_GeographicLocationId</RelationshipName>
+                            <TargetEntityType>mstelco_geographicpoint</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A355EE85-63D3-4E01-9BC8-A8FD3E742257},{577F5782-BD27-EB11-A813-000D3A4DF1CD}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="admin" id="{7667427b-50bd-6867-24e9-d31837e1eeeb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Admin" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="admin_section_1" showlabel="false" showbar="false" locklevel="0" id="{d6a5819c-0072-ac62-906c-db5b3d68051d}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7c8c7865-3f2c-4749-8cca-4e9604ceb630}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{be79bab2-478c-77b9-8ca9-ec14c82c336b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External ID" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_externalid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_externalid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60811d39-7307-1ec6-9904-06ba7c32591a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{8947ae4d-9a9c-73ba-766c-ba3ddbe9e6d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External System" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_externalsystemid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_externalsystemid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{161790dc-1d59-a6a7-4ea6-e7bd955e5acd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{bd872799-bb0a-8753-0e55-163b2552693c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{469c5948-c122-e7ce-8d22-06359d42bbe2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{d76a3757-c377-edb0-75a8-e1aaa5dc1802}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5849d455-00bb-7245-36d8-4ac2b992812d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell id="{03bc1a74-34a6-2b7c-ee83-969ee06de0b5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId" Sequence="10000" Area="Info" Id="nav_mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId">
+            <Titles>
+              <Title LCID="1033" Text="Geographic Addresses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mstelco_geographiclocation_mstelco_geographicplace_GeographicLocationId" Sequence="10001" Area="Info" Id="nav_mstelco_geographiclocation_mstelco_geographicplace_GeographicLocationId">
+            <Titles>
+              <Title LCID="1033" Text="Geographic Places" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mstelco_geographiclocation_mstelco_geographicpoint_GeographicLocationId" Sequence="10002" Area="Info" Id="nav_mstelco_geographiclocation_mstelco_geographicpoint_GeographicLocationId">
+            <Titles>
+              <Title LCID="1033" Text="Geographic Points" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <header id="{f7387d9c-8dd2-47bb-bfab-c793d9b13105}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fba59450-f548-4b25-a499-b05ca57a6fb9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{67062f80-3e0e-46c5-ac20-0fd23b42ba7a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7b8c9427-48b9-4437-a31d-1111c9fea610}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7adfc5dd-f7a2-4506-8ee4-57dea1e66c81}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7e8badb4-cf4e-485c-8e34-f86852558835}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{08dad909-6947-44ac-8ba7-8a1bb927f625}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{64e2eedc-6b74-4725-836b-970dd2b4fc6e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e427b4ec-5366-4a0b-96f4-d2b62133ae64}</savedqueryid>
+    <layoutxml>
+      <grid name="mstelco_serviceareas" jump="mstelco_name" select="1" icon="1" preview="0">
+        <row name="mstelco_servicearea" id="mstelco_serviceareaid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_code" width="100" />
+          <cell name="mstelco_description" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_servicearea">
+          <attribute name="mstelco_serviceareaid" />
+          <attribute name="mstelco_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="mstelco_name" descending="false" />
+          <attribute name="mstelco_description" />
+          <attribute name="mstelco_code" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Area Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

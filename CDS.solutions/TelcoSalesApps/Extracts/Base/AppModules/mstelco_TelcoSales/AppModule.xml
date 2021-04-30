@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>mstelco_TelcoSales</UniqueName>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <WebResourceId>e4a000d7-d73f-eb11-a813-000d3a111312</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="mstelco_TelcoSales" />
+    <AppModuleComponent type="60" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}" />
+    <AppModuleComponent type="60" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}" />
+    <AppModuleComponent type="60" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+    <AppModuleComponent type="60" id="{3b5d39a7-b216-e711-80d8-00155d896f83}" />
+    <AppModuleComponent type="60" id="{25b754f5-7563-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="60" id="{827f99a7-5e24-eb11-a813-000d3a111312}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="mstelco_geographicaddress" />
+    <AppModuleComponent type="1" schemaName="mstelco_geographiclocation" />
+    <AppModuleComponent type="1" schemaName="mstelco_geographicplace" />
+    <AppModuleComponent type="1" schemaName="mstelco_geographicsubaddress" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotalert" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="mstelco_leadserviceabilityflow" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="1" schemaName="mstelco_place" />
+    <AppModuleComponent type="1" schemaName="mstelco_serviceareageoplace" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Telco Sales" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="This model-driven applications builds on the out-of-the-box offering from D365 Sales in order to provide new forms for Service Addresses Lookups and Serviceability workflows which designate a customer’s service address and verify whether it exists, or is planned to exist, within or across a service provider’s network." languagecode="1033" />
+  </Descriptions>
+</AppModule>

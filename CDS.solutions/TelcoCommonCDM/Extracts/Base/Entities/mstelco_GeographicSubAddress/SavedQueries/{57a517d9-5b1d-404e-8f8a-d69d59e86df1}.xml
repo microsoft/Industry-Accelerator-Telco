@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{57a517d9-5b1d-404e-8f8a-d69d59e86df1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mstelco_name" select="1" icon="1" preview="1">
+        <row name="result" id="mstelco_geographicsubaddressid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_geographicaddressid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_type" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_buildingname" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_leveltype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_levelname" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_subunittype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_subunitname" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_geographicsubaddress">
+          <attribute name="mstelco_name" />
+          <order attribute="mstelco_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="mstelco_type" operator="like" value="{0}" />
+            <condition attribute="mstelco_subunittype" operator="like" value="{0}" />
+            <condition attribute="mstelco_subunitname" operator="like" value="{0}" />
+            <condition attribute="mstelco_name" operator="like" value="{0}" />
+            <condition attribute="mstelco_leveltype" operator="like" value="{0}" />
+            <condition attribute="mstelco_levelname" operator="like" value="{0}" />
+            <condition attribute="mstelco_geographicaddressid" operator="like" value="{0}" />
+            <condition attribute="mstelco_externalsystemid" operator="like" value="{0}" />
+            <condition attribute="mstelco_externalid" operator="like" value="{0}" />
+            <condition attribute="mstelco_code" operator="like" value="{0}" />
+            <condition attribute="mstelco_buildingname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="mstelco_type" />
+          <attribute name="mstelco_subunittype" />
+          <attribute name="mstelco_subunitname" />
+          <attribute name="mstelco_leveltype" />
+          <attribute name="mstelco_levelname" />
+          <attribute name="mstelco_geographicaddressid" />
+          <attribute name="mstelco_buildingname" />
+          <attribute name="mstelco_geographicsubaddressid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Geographic Sub Addresses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

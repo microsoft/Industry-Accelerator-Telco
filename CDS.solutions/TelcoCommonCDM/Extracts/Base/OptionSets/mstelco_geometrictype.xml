@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mstelco_geometrictype" localizedName="Geometric Type" description="Type of the Geometry defined by the Point Set." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Geometric Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Type of the Geometry defined by the Point Set." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="719830000">
+      <labels>
+        <label description="Point" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830001">
+      <labels>
+        <label description="Line" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830002">
+      <labels>
+        <label description="Polygon" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830003">
+      <labels>
+        <label description="Space" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830004">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830005">
+      <labels>
+        <label description="Circle" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

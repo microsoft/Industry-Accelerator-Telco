@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ee619020-837d-426d-9e3c-9a3c1d9746ab}</formid>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{874961a4-2d88-43f8-9f70-dce56a8c6f1f}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{529dddc0-b029-4a02-a7e4-62237940df51}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{87d4aee2-d35e-723d-bd35-410233c97569}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92dc4558-9949-9a88-5d6e-0d5e7218e7ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{041d82b2-58e6-a0ca-31ab-60d9ade6277d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographic Address" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geographicaddressid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_geographicaddressid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da8daa8b-b6ad-37e3-586d-b99624eba776}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Private Street Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_privatestreetname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_privatestreetname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35de6ee1-6b52-cdd5-abc0-d43472410366}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Private Street Number" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_privatestreetnumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mstelco_privatestreetnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0422ee03-56ab-4d47-5953-d005db3b14c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_buildingname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_buildingname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c729607b-3697-b4a5-8a60-ab89c666c8ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Level Type" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_leveltype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_leveltype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c777a009-7304-979e-3d1a-128c69be5b76}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Level Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_levelname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_levelname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b014c51-5ad5-d160-7c39-d9b4a793a4e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sub Unit Type" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_subunittype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_subunittype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2edcc06e-3d24-675b-a1e7-bb8d8907aa40}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sub Unit Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_subunitname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_subunitname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{761e6cab-9e32-49b6-ad5d-ecb1456127a9}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f1acd29c-b37b-4a92-af70-e6e50f1f5b28}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{29a8e310-6e55-4b2c-b366-d2b4dea9d1a3}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{69a5149a-3007-41e9-be38-eaf15158448f}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

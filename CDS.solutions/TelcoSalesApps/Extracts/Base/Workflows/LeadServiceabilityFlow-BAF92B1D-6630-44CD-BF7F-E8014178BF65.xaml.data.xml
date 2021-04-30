@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{baf92b1d-6630-44cd-bf7f-e8014178bf65}" Name="Lead Serviceability Flow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/LeadServiceabilityFlow-BAF92B1D-6630-44CD-BF7F-E8014178BF65.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>0</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>mstelco_leadserviceabilityflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Lead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Lead Serviceability Flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{df72c758-1eb5-4ee7-9b48-fbc7faaf1dfc}">
+      <label languagecode="1033" description="Premise Check" />
+    </steplabels>
+    <steplabels id="{70c1c9d1-e74c-48f7-b285-4e4a76a006cc}">
+      <label languagecode="1033" description="Street 1" />
+    </steplabels>
+    <steplabels id="{404a5f7d-3a92-413a-a870-808ec30412d7}">
+      <label languagecode="1033" description="Street 2" />
+    </steplabels>
+    <steplabels id="{42de0b78-a8c5-4dcb-a0d3-8a90812e86c9}">
+      <label languagecode="1033" description="City" />
+    </steplabels>
+    <steplabels id="{0621efd7-be38-4099-8cf7-aa4bcab9043b}">
+      <label languagecode="1033" description="State/Province" />
+    </steplabels>
+    <steplabels id="{75f10976-6808-4a8c-8f5d-ab2edb139e33}">
+      <label languagecode="1033" description="Country/Region" />
+    </steplabels>
+    <steplabels id="{0dd46ba6-8b1b-44d9-bc3e-bf90c2c46cc5}">
+      <label languagecode="1033" description="County" />
+    </steplabels>
+    <steplabels id="{c840cda9-ad97-4095-980e-1d4af797c639}">
+      <label languagecode="1033" description="Geographic Address" />
+    </steplabels>
+    <steplabels id="{1e53a94b-6084-4995-bd6b-a43976871f63}">
+      <label languagecode="1033" description="Geographic Sub-Address" />
+    </steplabels>
+    <steplabels id="{6077e282-2f3b-45af-aa05-41e3e478da32}">
+      <label languagecode="1033" description="Geographic Location" />
+    </steplabels>
+    <steplabels id="{906eddf2-dc40-4bd9-8e61-7fe4febc1b40}">
+      <label languagecode="1033" description="Service Area Check" />
+    </steplabels>
+    <steplabels id="{df5a6bf5-a983-4d94-90e8-d82a237c7b7c}">
+      <label languagecode="1033" description="Geographic Place" />
+    </steplabels>
+    <steplabels id="{1d898d96-70c8-42f7-9e25-915a47e75732}">
+      <label languagecode="1033" description="Service Area" />
+    </steplabels>
+    <steplabels id="{49502200-b6ee-4159-9948-a73b022c5ac9}">
+      <label languagecode="1033" description="Network Proximity" />
+    </steplabels>
+    <steplabels id="{17a39d91-a477-404d-94c3-5216a7fcbf9e}">
+      <label languagecode="1033" description="Serviceability Status" />
+    </steplabels>
+    <steplabels id="{15691b2b-a316-4c1a-a3fa-c10dca9ba6af}">
+      <label languagecode="1033" description="Device Discovery" />
+    </steplabels>
+    <steplabels id="{1e541b95-41d4-4547-bd9a-d084405ea97c}">
+      <label languagecode="1033" description="Demarcation Point" />
+    </steplabels>
+    <steplabels id="{8a17ad41-95b0-4960-a6b2-383ac5afe726}">
+      <label languagecode="1033" description="Serviceability Status" />
+    </steplabels>
+  </labels>
+</Workflow>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_mstelco_place" />
+  <EntityRelationship Name="lk_mstelco_place_createdby" />
+  <EntityRelationship Name="lk_mstelco_place_modifiedby" />
+  <EntityRelationship Name="mstelco_externalsystem_mstelco_place_ExternalSystemId" />
+  <EntityRelationship Name="mstelco_geographicaddress_lead_GeographicAddressId" />
+  <EntityRelationship Name="mstelco_geographiclocation_lead_GeographicLocationId" />
+  <EntityRelationship Name="mstelco_geographicplace_lead_GeographicPlaceId" />
+  <EntityRelationship Name="mstelco_localplace_lead_DemarcationPointId" />
+  <EntityRelationship Name="mstelco_localplace_mstelco_place_LocalPlaceId" />
+  <EntityRelationship Name="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" />
+  <EntityRelationship Name="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" />
+  <EntityRelationship Name="mstelco_place_mstelco_place_ParentLocalPlaceId" />
+  <EntityRelationship Name="mstelco_place_opportunity_PlaceId" />
+  <EntityRelationship Name="mstelco_place_quote_PlaceId" />
+  <EntityRelationship Name="mstelco_place_salesorder_PlaceId" />
+  <EntityRelationship Name="mstelco_product_mstelco_serviceareatechnology_ProductId" />
+  <EntityRelationship Name="mstelco_servicearea_lead_ServiceAreaId" />
+  <EntityRelationship Name="owner_mstelco_place" />
+  <EntityRelationship Name="team_mstelco_place" />
+  <EntityRelationship Name="user_mstelco_place" />
+</EntityRelationships>

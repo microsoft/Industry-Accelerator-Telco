@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7e1c3b58-0ec2-4373-9cc6-7a1f682a128e}</savedqueryid>
+    <layoutxml>
+      <grid name="mstelco_localplaces" jump="mstelco_name" select="1" icon="1" preview="0">
+        <row name="mstelco_localplace" id="mstelco_localplaceid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_type" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_parentlocalplaceid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_localplace">
+          <attribute name="mstelco_localplaceid" />
+          <attribute name="mstelco_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="mstelco_name" descending="false" />
+          <attribute name="mstelco_type" />
+          <attribute name="statecode" />
+          <attribute name="mstelco_parentlocalplaceid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Local Place Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

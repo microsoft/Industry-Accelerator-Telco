@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21012.151" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TelcoSalesCDM</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Telco Sales CDM" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.3.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365telco</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Telco" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mstelco</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>71983</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="lead" behavior="2" />
+      <RootComponent type="1" schemaName="mstelco_place" behavior="0" />
+      <RootComponent type="1" schemaName="mstelco_serviceareatechnology" behavior="1" />
+      <RootComponent type="1" schemaName="opportunity" behavior="1" />
+      <RootComponent type="1" schemaName="quote" behavior="1" />
+      <RootComponent type="1" schemaName="salesorder" behavior="1" />
+      <RootComponent type="9" schemaName="mstelco_customerserviceabilitystatus" behavior="0" />
+      <RootComponent type="9" schemaName="mstelco_telcocustomertype" behavior="0" />
+      <RootComponent type="60" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      <RootComponent type="60" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      <RootComponent type="60" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="0" type="1" schemaName="mstelco_place" displayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="1" schemaName="opportunity" displayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="2" type="1" schemaName="quote" displayName="Quote" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="3" type="1" schemaName="lead" displayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="4" type="1" schemaName="salesorder" displayName="Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="5" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="6" type="2" schemaName="mstelco_geographicplaceidname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="7" type="2" schemaName="modifiedbyyominame" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="8" type="2" schemaName="mstelco_serviceabilitylastchecked" displayName="Serviceability Last Checked" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="9" type="2" schemaName="mstelco_externalsystemidname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="10" type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="11" type="2" schemaName="mstelco_serviceareaid" displayName="Service Area" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="12" type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="13" type="2" schemaName="mstelco_geographiclocationid" displayName="Geographic Location" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="14" type="2" schemaName="statecodename" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="15" type="2" schemaName="mstelco_placeidname" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="16" type="2" schemaName="mstelco_parentlocalplaceidname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="17" type="2" schemaName="modifiedbyname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="18" type="2" schemaName="mstelco_placeid" displayName="Place" parentSchemaName="quote" parentDisplayName="Quote" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="19" type="2" schemaName="mstelco_serviceabilitystatus" displayName="Serviceability Status" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="20" type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="21" type="2" schemaName="owneridyominame" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="22" type="2" schemaName="mstelco_geographicaddressidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="23" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="24" type="2" schemaName="mstelco_placestatusname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="25" type="2" schemaName="mstelco_placeidname" parentSchemaName="quote" parentDisplayName="Quote" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="26" type="2" schemaName="mstelco_geographicaddressid" displayName="Geographic Address" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="27" type="2" schemaName="mstelco_demarcationpointid" displayName="Demarcation Point" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="28" type="2" schemaName="owneriddsc" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="29" type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="30" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="31" type="2" schemaName="mstelco_customertype" displayName="Customer Type" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="32" type="2" schemaName="mstelco_geographicsubaddressidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="33" type="2" schemaName="mstelco_productid" displayName="Product" parentSchemaName="mstelco_serviceareatechnology" parentDisplayName="Service Area Technology" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="34" type="2" schemaName="mstelco_geographiclocationidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="35" type="2" schemaName="createdbyname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="36" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="37" type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="38" type="2" schemaName="owneridtype" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="39" type="2" schemaName="mstelco_placeid" displayName="Place" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="40" type="2" schemaName="mstelco_geographicplaceid" displayName="Geographic Place" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="41" type="2" schemaName="createdonbehalfbyname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="42" type="2" schemaName="owneridname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="43" type="2" schemaName="mstelco_placeid" displayName="Place" parentSchemaName="salesorder" parentDisplayName="Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="44" type="2" schemaName="mstelco_demarcationpointidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="45" type="2" schemaName="mstelco_serviceareaidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="46" type="2" schemaName="mstelco_geographicplaceidname" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="47" type="2" schemaName="mstelco_geographicsubaddressid" displayName="Geographic Sub-Address" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="48" type="2" schemaName="mstelco_placeidname" parentSchemaName="salesorder" parentDisplayName="Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="49" type="2" schemaName="statuscodename" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="50" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="51" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="52" type="2" schemaName="mstelco_localplaceidname" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="53" type="2" schemaName="mstelco_typename" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="54" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="55" type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="56" type="2" schemaName="createdbyyominame" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="57" type="10" schemaName="mstelco_place_opportunity_PlaceId" displayName="mstelco_place_opportunity_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="57" type="10" schemaName="mstelco_place_opportunity_PlaceId" displayName="mstelco_place_opportunity_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="58" type="10" schemaName="mstelco_place_quote_PlaceId" displayName="mstelco_place_quote_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="58" type="10" schemaName="mstelco_place_quote_PlaceId" displayName="mstelco_place_quote_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="59" type="10" schemaName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" displayName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="1" schemaName="mstelco_geographicplace" displayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="59" type="10" schemaName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" displayName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="59" type="10" schemaName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" displayName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="2" schemaName="mstelco_geographicplaceid" displayName="Geographic Place" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="59" type="10" schemaName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" displayName="mstelco_mstelco_geographicplace_mstelco_place_GeographicPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="63" type="10" schemaName="mstelco_place_mstelco_place_ParentLocalPlaceId" displayName="mstelco_place_mstelco_place_ParentLocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="64" type="10" schemaName="mstelco_externalsystem_mstelco_place_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_place_ExternalSystemId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="1" schemaName="mstelco_externalsystem" displayName="External System" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="64" type="10" schemaName="mstelco_externalsystem_mstelco_place_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_place_ExternalSystemId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_externalsystem" parentDisplayName="External System" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="64" type="10" schemaName="mstelco_externalsystem_mstelco_place_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_place_ExternalSystemId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_externalsystem" parentDisplayName="External System" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="64" type="10" schemaName="mstelco_externalsystem_mstelco_place_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_place_ExternalSystemId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="68" type="10" schemaName="mstelco_place_salesorder_PlaceId" displayName="mstelco_place_salesorder_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="68" type="10" schemaName="mstelco_place_salesorder_PlaceId" displayName="mstelco_place_salesorder_PlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="69" type="10" schemaName="mstelco_localplace_mstelco_place_LocalPlaceId" displayName="mstelco_localplace_mstelco_place_LocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="69" type="10" schemaName="mstelco_localplace_mstelco_place_LocalPlaceId" displayName="mstelco_localplace_mstelco_place_LocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="69" type="10" schemaName="mstelco_localplace_mstelco_place_LocalPlaceId" displayName="mstelco_localplace_mstelco_place_LocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="mstelco_localplaceid" displayName="Local Place" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="69" type="10" schemaName="mstelco_localplace_mstelco_place_LocalPlaceId" displayName="mstelco_localplace_mstelco_place_LocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="73" type="10" schemaName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" displayName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="1" schemaName="mstelco_geographicsubaddress" displayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="73" type="10" schemaName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" displayName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="mstelco_geographicsubaddressid" displayName="Geographic Sub Address" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="73" type="10" schemaName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" displayName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="73" type="10" schemaName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" displayName="mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="77" type="10" schemaName="mstelco_geographicplace_lead_GeographicPlaceId" displayName="mstelco_geographicplace_lead_GeographicPlaceId" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="1" schemaName="mstelco_geographicplace" displayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="77" type="10" schemaName="mstelco_geographicplace_lead_GeographicPlaceId" displayName="mstelco_geographicplace_lead_GeographicPlaceId" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="2" schemaName="mstelco_geographicplaceid" displayName="Geographic Place" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="77" type="10" schemaName="mstelco_geographicplace_lead_GeographicPlaceId" displayName="mstelco_geographicplace_lead_GeographicPlaceId" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="77" type="10" schemaName="mstelco_geographicplace_lead_GeographicPlaceId" displayName="mstelco_geographicplace_lead_GeographicPlaceId" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="78" type="10" schemaName="mstelco_geographiclocation_lead_GeographicLocationId" displayName="mstelco_geographiclocation_lead_GeographicLocationId" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="78" type="10" schemaName="mstelco_geographiclocation_lead_GeographicLocationId" displayName="mstelco_geographiclocation_lead_GeographicLocationId" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="78" type="10" schemaName="mstelco_geographiclocation_lead_GeographicLocationId" displayName="mstelco_geographiclocation_lead_GeographicLocationId" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="2" schemaName="mstelco_geographiclocationid" displayName="Geographic Location" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="78" type="10" schemaName="mstelco_geographiclocation_lead_GeographicLocationId" displayName="mstelco_geographiclocation_lead_GeographicLocationId" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="82" type="10" schemaName="mstelco_servicearea_lead_ServiceAreaId" displayName="mstelco_servicearea_lead_ServiceAreaId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="1" schemaName="mstelco_servicearea" displayName="Service Area" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="82" type="10" schemaName="mstelco_servicearea_lead_ServiceAreaId" displayName="mstelco_servicearea_lead_ServiceAreaId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="82" type="10" schemaName="mstelco_servicearea_lead_ServiceAreaId" displayName="mstelco_servicearea_lead_ServiceAreaId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="2" schemaName="mstelco_serviceareaid" displayName="Service Area" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="82" type="10" schemaName="mstelco_servicearea_lead_ServiceAreaId" displayName="mstelco_servicearea_lead_ServiceAreaId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="86" type="10" schemaName="mstelco_geographicaddress_lead_GeographicAddressId" displayName="mstelco_geographicaddress_lead_GeographicAddressId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="86" type="10" schemaName="mstelco_geographicaddress_lead_GeographicAddressId" displayName="mstelco_geographicaddress_lead_GeographicAddressId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="86" type="10" schemaName="mstelco_geographicaddress_lead_GeographicAddressId" displayName="mstelco_geographicaddress_lead_GeographicAddressId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="2" schemaName="mstelco_geographicaddressid" displayName="Geographic Address" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="86" type="10" schemaName="mstelco_geographicaddress_lead_GeographicAddressId" displayName="mstelco_geographicaddress_lead_GeographicAddressId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="90" type="10" schemaName="mstelco_localplace_lead_DemarcationPointId" displayName="mstelco_localplace_lead_DemarcationPointId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="90" type="10" schemaName="mstelco_localplace_lead_DemarcationPointId" displayName="mstelco_localplace_lead_DemarcationPointId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="mstelco_localplaceid" displayName="Local Place" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="90" type="10" schemaName="mstelco_localplace_lead_DemarcationPointId" displayName="mstelco_localplace_lead_DemarcationPointId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.10)" />
+        <Dependent key="90" type="10" schemaName="mstelco_localplace_lead_DemarcationPointId" displayName="mstelco_localplace_lead_DemarcationPointId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="1" schemaName="opportunityproduct" displayName="Opportunity Product" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="currentsituation" displayName="Current Situation" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="2" schemaName="estimatedclosedate" displayName="Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="98" type="2" schemaName="freightamount" displayName="Freight Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="parentaccountid" displayName="Account" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="2" schemaName="totaltax" displayName="Total Tax" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="2" schemaName="totalamount" displayName="Total Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="2" schemaName="budgetamount" displayName="Budget Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="103" type="2" schemaName="parentbundleidref" displayName="Parent bundle product" parentSchemaName="opportunityproduct" parentDisplayName="Opportunity Product" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="104" type="2" schemaName="totalamountlessfreight" displayName="Total Pre-Freight Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="2" schemaName="parentcontactid" displayName="Contact" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="2" schemaName="discountamount" displayName="Opportunity Discount Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="2" schemaName="customerneed" displayName="Customer Need" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="2" schemaName="discountpercentage" displayName="Opportunity Discount (%)" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="2" schemaName="isrevenuesystemcalculated" displayName="Revenue" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="113" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="115" type="2" schemaName="msdyn_forecastcategory" displayName="Forecast category" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdyn_Forecasting (9.0.20122.10050)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="116" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="117" type="2" schemaName="proposedsolution" displayName="Proposed Solution" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="2" schemaName="totallineitemamount" displayName="Total Detail Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="119" type="2" schemaName="estimatedvalue" displayName="Est. Revenue" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="120" type="26" schemaName="Opportunity Product Inline Edit View" displayName="Opportunity Product Inline Edit View" parentSchemaName="opportunityproduct" parentDisplayName="Opportunity Product" solution="msdynce_Sales (9.0.4.0076)" id="{01010de7-749e-4fe6-8037-aca560a4fcbe}" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="121" type="26" schemaName="Opportunity Product Inline Edit View: Bundle Products" displayName="Opportunity Product Inline Edit View: Bundle Products" parentSchemaName="opportunityproduct" parentDisplayName="Opportunity Product" solution="msdynce_SalesPatch (9.0.1904.3002)" id="{e175dfbf-8eae-4af2-9dd2-68c43c14d40f}" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="122" type="26" schemaName="Opportunity Quotes" displayName="Opportunity Quotes" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" id="{61a4c932-d775-e211-b420-00155d806600}" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="123" type="26" schemaName="All Competitors (summary)" displayName="All Competitors (summary)" parentSchemaName="competitor" parentDisplayName="Competitor" solution="msdynce_Sales (9.0.4.0076)" id="{57bca9ac-87a0-4c28-adc8-2d0a4645f29e}" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="124" type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="BaseCustomControlsCore (9.0.2101.2012)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="125" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2101.2012)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="126" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2101.2012)" />
+        <Dependent key="91" type="60" displayName="Opportunity" parentDisplayName="Opportunity" id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="127" type="1" schemaName="salesorderdetail" displayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="129" type="2" schemaName="name" displayName="Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="130" type="2" schemaName="ispricelocked" displayName="Prices Locked" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="131" type="2" schemaName="discountamount" displayName="Order Discount Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="132" type="2" schemaName="parentbundleidref" displayName="Parent bundle product" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="133" type="2" schemaName="discountpercentage" displayName="Order Discount (%)" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="134" type="2" schemaName="willcall" displayName="Ship To" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="135" type="2" schemaName="quoteid" displayName="Quote" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="136" type="2" schemaName="statecode" displayName="Status" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="137" type="2" schemaName="paymenttermscode" displayName="Payment Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="138" type="2" schemaName="shipto_composite" displayName="Ship To Address" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="139" type="2" schemaName="totallineitemamount" displayName="Total Detail Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="140" type="2" schemaName="billto_composite" displayName="Bill To Address" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="2" schemaName="totalamountlessfreight" displayName="Total Pre-Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="142" type="2" schemaName="freightamount" displayName="Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="143" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="144" type="2" schemaName="description" displayName="Description" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="145" type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="146" type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="147" type="2" schemaName="shippingmethodcode" displayName="Shipping Method" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="148" type="2" schemaName="datefulfilled" displayName="Date Fulfilled" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="149" type="2" schemaName="freighttermscode" displayName="Freight Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="150" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="151" type="2" schemaName="ordernumber" displayName="Order ID" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="152" type="2" schemaName="totaltax" displayName="Total Tax" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="153" type="2" schemaName="requestdeliveryby" displayName="Requested Delivery Date" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="154" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="155" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="156" type="2" schemaName="totalamount" displayName="Total Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="157" type="26" schemaName="Order Product Inline Edit View" displayName="Order Product Inline Edit View" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" id="{9ac6a187-5fb8-445c-914a-3b4a33c0017e}" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="158" type="26" schemaName="Order Product Inline Edit View: Bundle Products" displayName="Order Product Inline Edit View: Bundle Products" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_SalesPatch (9.0.1904.3002)" id="{96a1c3d3-24a3-4541-a2b1-6bc37fe6631e}" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="128" type="60" displayName="Order" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="125" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2101.2012)" />
+        <Dependent key="128" type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="159" type="1" schemaName="quotedetail" displayName="Quote Product" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="161" type="2" schemaName="totaltax" displayName="Total Tax" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="162" type="2" schemaName="name" displayName="Name" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="2" schemaName="quotenumber" displayName="Quote ID" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="164" type="2" schemaName="shipto_composite" displayName="Ship To Address" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="165" type="2" schemaName="description" displayName="Description" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="166" type="2" schemaName="effectiveto" displayName="Effective To" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="2" schemaName="parentbundleidref" displayName="Parent bundle product" parentSchemaName="quotedetail" parentDisplayName="Quote Product" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="168" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="169" type="2" schemaName="freighttermscode" displayName="Freight Terms" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="170" type="2" schemaName="effectivefrom" displayName="Effective From" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="171" type="2" schemaName="billto_composite" displayName="Bill To Address" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="172" type="2" schemaName="willcall" displayName="Ship To" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="173" type="2" schemaName="totalamountlessfreight" displayName="Total Pre-Freight Amount" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="174" type="2" schemaName="freightamount" displayName="Freight Amount" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="175" type="2" schemaName="revisionnumber" displayName="Revision ID" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="176" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="177" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="178" type="2" schemaName="shippingmethodcode" displayName="Shipping Method" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="179" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="180" type="2" schemaName="paymenttermscode" displayName="Payment Terms" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="181" type="2" schemaName="discountamount" displayName="Quote Discount Amount" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="182" type="2" schemaName="discountpercentage" displayName="Quote Discount (%)" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="183" type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="184" type="2" schemaName="totalamount" displayName="Total Amount" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="185" type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="186" type="2" schemaName="totallineitemamount" displayName="Total Detail Amount" parentSchemaName="quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="187" type="26" schemaName="Quote Product Inline Edit View: Bundle Products" displayName="Quote Product Inline Edit View: Bundle Products" parentSchemaName="quotedetail" parentDisplayName="Quote Product" solution="msdynce_SalesPatch (9.0.1904.3002)" id="{f6b7bacd-ca87-4cce-b4d3-0ff5dc0d43ef}" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="188" type="26" schemaName="Quote Product Inline Edit View" displayName="Quote Product Inline Edit View" parentSchemaName="quotedetail" parentDisplayName="Quote Product" solution="msdynce_Sales (9.0.4.0076)" id="{cf23f371-4c2e-44df-bcef-c8971249bbe0}" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="160" type="60" displayName="Quote" parentDisplayName="Quote" solution="msdynce_Sales (9.0.4.0076)" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="125" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2101.2012)" />
+        <Dependent key="160" type="60" displayName="Quote" parentDisplayName="Quote" id="{54076a2d-d043-4a1b-b061-4d06846371a9}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

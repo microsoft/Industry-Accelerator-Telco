@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b03e8787-b3c7-4b66-b997-2c9734f9935d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mstelco_name" select="1" icon="1" preview="1">
+        <row name="result" id="mstelco_serviceareageoplaceid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_serviceareaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_geographicplaceid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_placestatus" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_serviceareageoplace">
+          <attribute name="mstelco_name" />
+          <order attribute="mstelco_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="mstelco_serviceareaid" operator="like" value="{0}" />
+            <condition attribute="mstelco_placestatus" operator="like" value="{0}" />
+            <condition attribute="mstelco_name" operator="like" value="{0}" />
+            <condition attribute="mstelco_geographicplaceid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="mstelco_serviceareaid" />
+          <attribute name="mstelco_placestatus" />
+          <attribute name="mstelco_geographicplaceid" />
+          <attribute name="mstelco_serviceareageoplaceid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Service Area Geographical Places" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

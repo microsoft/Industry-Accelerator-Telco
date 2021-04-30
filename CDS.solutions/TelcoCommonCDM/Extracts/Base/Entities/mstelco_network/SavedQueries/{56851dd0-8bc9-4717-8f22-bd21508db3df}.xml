@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{56851dd0-8bc9-4717-8f22-bd21508db3df}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mstelco_name" select="1" icon="1" preview="1">
+        <row name="result" id="mstelco_networkid">
+          <cell name="mstelco_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_code" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_type" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_networkstatus" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mstelco_networkproviderid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mstelco_network">
+          <attribute name="mstelco_name" />
+          <order attribute="mstelco_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mstelco_code" />
+          <attribute name="mstelco_type" />
+          <attribute name="mstelco_networkstatus" />
+          <attribute name="mstelco_networkproviderid" />
+          <attribute name="mstelco_networkid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Networks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

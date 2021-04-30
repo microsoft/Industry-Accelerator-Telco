@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>mstelco_TelcoSales</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="mstelco_telcosales" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Telco Sales" />
+      </Titles>
+      <Group Id="mstelco_customers" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Customers" />
+        </Titles>
+        <SubArea Id="NewSubArea_89ea2d9" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="827f99a7-5e24-eb11-a813-000d3a111312" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="lead" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_34863c52" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_826e6f2c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="My_Work" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="My Work" />
+        </Titles>
+        <SubArea Id="Dashboards" ResourceId="SitemapDesigner.NewSubArea" Url="/workplace/home_dashboards.aspx" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dashboards" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Activity" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="activitypointer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Activities" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Sales" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Sales" />
+        </Titles>
+        <SubArea Id="Lead" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="lead" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Leads" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Opportunity" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="opportunity" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Opportunities" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Competitor" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="competitor" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Competitors" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Collateral" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Collateral" />
+        </Titles>
+        <SubArea Id="Quote" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="quote" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Quotes" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Order" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="salesorder" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Orders" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Invoice" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="invoice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Invoices" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_470ff342Product" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="product" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Products" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="Salesliterature" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="salesliterature" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sales Literature" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Goals" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Performance" />
+        </Titles>
+        <SubArea Id="Goal" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="goal" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Goals" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ForecastInstance" ResourceId="SitemapDesigner.NewSubArea" Url="/main.aspx?pagetype=control&amp;controlName=ForecastingControls.FieldControls.ForecastGridPage" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Forecasts" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Telco Sales" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,35 @@
+
+.divElements {
+    display: block;
+}
+
+.divMap {
+    clear: both;
+    height: 750px;
+}
+
+.divMapFullScreen {
+    clear: both;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup-content {
+    padding: 10px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.popup-close {
+    line-height: 6px;
+    width: auto;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    background-color: white;
+}
+.azure-maps-control-popup-template {
+    width:100%;
+    height:70px;
+}

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mstelco_placetype" localizedName="Place Type" description="Type of Local Place." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Place Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Type of Local Place." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="719830000">
+      <labels>
+        <label description="Premise" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830001">
+      <labels>
+        <label description="Demarc" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830002">
+      <labels>
+        <label description="Drop" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830003">
+      <labels>
+        <label description="Tower" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830004">
+      <labels>
+        <label description="Floor" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830005">
+      <labels>
+        <label description="Node" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830006">
+      <labels>
+        <label description="Rack" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830007">
+      <labels>
+        <label description="Pole" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830008">
+      <labels>
+        <label description="CPE" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830009">
+      <labels>
+        <label description="Closet" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830010">
+      <labels>
+        <label description="Shelf" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830011">
+      <labels>
+        <label description="Server" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830012">
+      <labels>
+        <label description="Wire" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830013">
+      <labels>
+        <label description="Tube" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830014">
+      <labels>
+        <label description="Splice" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830015">
+      <labels>
+        <label description="Warehouse" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830016">
+      <labels>
+        <label description="Bin" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830017">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

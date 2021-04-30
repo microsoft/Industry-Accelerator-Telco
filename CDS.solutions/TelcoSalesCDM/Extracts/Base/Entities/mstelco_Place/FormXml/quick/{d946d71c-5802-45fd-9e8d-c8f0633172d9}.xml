@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{d946d71c-5802-45fd-9e8d-c8f0633172d9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a57d5af9-9a7b-4f4c-9cf3-031104302de3}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0f617bf2-7141-4cc9-9e9e-33bad37df2fa}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b791489-3131-bab0-6931-197ec5535ce9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_code" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07e966be-a643-e50e-718d-227907db25c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Geographic Place" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geographicplaceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_geographicplaceid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3557012d-6a77-4e01-3094-8d01a107482c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Local Place" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_localplaceid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_localplaceid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d03b5540-0567-4274-bb1f-cd248630a498}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mstelco_name" uniqueid="{898ba8c6-c6b1-aee2-2e9c-b90c84a66d07}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8da17409-ebaa-4a84-b1b6-efa2db185d2f}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{e89063cc-581d-aa77-30a9-e10b0cae0d87}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

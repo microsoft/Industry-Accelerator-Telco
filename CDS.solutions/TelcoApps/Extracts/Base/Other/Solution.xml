@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21034.182" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TelcoApps</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Telco Apps" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.3.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoftdynamics365telco</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft Dynamics 365 Telco" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>mstelco</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>71983</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="mstelco_geographicaddress" behavior="2" />
+      <RootComponent type="1" schemaName="mstelco_geographiclocation" behavior="2" />
+      <RootComponent type="1" schemaName="mstelco_localplace" behavior="1" />
+      <RootComponent type="1" schemaName="mstelco_networkresource" behavior="2" />
+      <RootComponent type="1" schemaName="mstelco_networkzone" behavior="1" />
+      <RootComponent type="1" schemaName="mstelco_servicearea" behavior="2" />
+      <RootComponent type="29" id="{3f999e4b-8d8e-eb11-a812-000d3a1f6fdb}" behavior="0" />
+      <RootComponent type="29" id="{40999e4b-8d8e-eb11-a812-000d3a1f6fdb}" behavior="0" />
+      <RootComponent type="60" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" behavior="0" />
+      <RootComponent type="60" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      <RootComponent type="60" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      <RootComponent type="60" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      <RootComponent type="60" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      <RootComponent type="60" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" behavior="0" />
+      <RootComponent type="60" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" behavior="0" />
+      <RootComponent type="61" schemaName="mstelco_PlaceManagementAppIcon.svg" behavior="0" />
+      <RootComponent type="62" schemaName="mstelco_PlaceManagement" behavior="0" />
+      <RootComponent type="66" schemaName="mstelco_PCFControls.DataFromMap" behavior="0" />
+      <RootComponent type="80" schemaName="mstelco_PlaceManagement" behavior="0" />
+      <RootComponent type="300" schemaName="mstelco_findgeoaddress_362de" behavior="0" />
+      <RootComponent type="372" id="{707c78a1-a86b-4556-96a7-5cbce57aef06}" schemaName="mstelco_5ffind-20location-20with-20azure-20v2" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="1" type="59" schemaName="Local Places by Type" displayName="Local Places by Type" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" id="{e268c528-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="2" schemaName="mstelco_type" displayName="Type" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="1" type="59" schemaName="Local Places by Type" displayName="Local Places by Type" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" id="{e268c528-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="mstelco_localplaceid" displayName="Local Place" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="1" type="59" schemaName="Local Places by Type" displayName="Local Places by Type" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" id="{e268c528-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="5" type="59" schemaName="Top 15 Zip/Postal Codes" displayName="Top 15 Zip/Postal Codes" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" id="{35a1732a-d029-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="2" schemaName="mstelco_geographicaddressid" displayName="Geographic Address" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="5" type="59" schemaName="Top 15 Zip/Postal Codes" displayName="Top 15 Zip/Postal Codes" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" id="{35a1732a-d029-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="2" schemaName="mstelco_postalcode" displayName="Zip/Postal Code" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="5" type="59" schemaName="Top 15 Zip/Postal Codes" displayName="Top 15 Zip/Postal Codes" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" id="{35a1732a-d029-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="9" type="59" schemaName="Network Zones by Network" displayName="Network Zones by Network" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" id="{c37088c5-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="2" schemaName="mstelco_networkid" displayName="Network" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="9" type="59" schemaName="Network Zones by Network" displayName="Network Zones by Network" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" id="{c37088c5-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="2" schemaName="mstelco_networkzoneid" displayName="Network Zone" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="9" type="59" schemaName="Network Zones by Network" displayName="Network Zones by Network" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" id="{c37088c5-c729-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="mstelco_networkresource" displayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="2" schemaName="mstelco_networkzoneid" displayName="Network Zone" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="2" schemaName="mstelco_typeid" displayName="Type" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="10" schemaName="mstelco_networkzone_mstelco_networkresource_NetworkZoneId" displayName="mstelco_networkzone_mstelco_networkresource_NetworkZoneId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="mstelco_networkresourcetype_mstelco_networkresource_TypeId" displayName="mstelco_networkresourcetype_mstelco_networkresource_TypeId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="13" type="60" displayName="Hierarchy Quick View Form" parentDisplayName="Network Resource" id="{fdaec4c6-eb91-4937-ade8-c79e892da53b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="26" schemaName="Active Local Places" displayName="Active Local Places" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" id="{ce16113d-f413-47db-96c4-ef8e219d0e86}" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="26" schemaName="Active Geographic Addresses" displayName="Active Geographic Addresses" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" id="{0ff0f7ad-a3c3-413c-9514-bcd99e1482d3}" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="26" schemaName="Active Places" displayName="Active Places" parentSchemaName="mstelco_place" parentDisplayName="Place" solution="TelcoCommonCDM (1.0.1.22)" id="{f03dcfbc-6063-4a27-8700-5c09de6afe0b}" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="26" schemaName="Active Network Zones" displayName="Active Network Zones" parentSchemaName="mstelco_networkzone" parentDisplayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" id="{787e9c86-484a-4dd9-a359-e63cf01c0c7d}" />
+        <Dependent key="19" type="60" displayName="Place Management Dashboard" id="{e098dfc9-cd29-eb11-a813-000d3a111312}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="2" schemaName="mstelco_geographicsubaddressid" displayName="Geographic Sub Address" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="2" schemaName="mstelco_geographicaddressid" displayName="Geographic Address" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="Active" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="mstelco_externalid" displayName="External ID" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="mstelco_localplacestatus" displayName="Local Place Status" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="Active" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="2" schemaName="mstelco_type" displayName="Type" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="2" schemaName="mstelco_description" displayName="Description" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="mstelco_parentlocalplaceid" displayName="Parent Local Place" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="Active" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="10" schemaName="mstelco_geographicsubaddress_mstelco_localplace_GeographicSubAddressId" displayName="mstelco_geographicsubaddress_mstelco_localplace_GeographicSubAddressId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="10" schemaName="mstelco_localplace_mstelco_networkresource" displayName="mstelco_localplace_mstelco_networkresource" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="10" schemaName="mstelco_externalsystem_mstelco_localplace_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_localplace_ExternalSystemId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="mstelco_geographicaddress_mstelco_localplace_GeographicAddressId" displayName="mstelco_geographicaddress_mstelco_localplace_GeographicAddressId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="10" schemaName="mstelco_localplace_mstelco_localplace_ParentLocalPlaceId" displayName="mstelco_localplace_mstelco_localplace_ParentLocalPlaceId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="10" schemaName="mstelco_localplace_mstelco_networkresource_LocalPlaceId" displayName="mstelco_localplace_mstelco_networkresource_LocalPlaceId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="10" schemaName="mstelco_localplace_mstelco_place_LocalPlaceId" displayName="mstelco_localplace_mstelco_place_LocalPlaceId" parentSchemaName="mstelco_place" parentDisplayName="Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="10" schemaName="mstelco_geographicaddress_mstelco_geographicsubaddress_GeographicAddressId" displayName="mstelco_geographicaddress_mstelco_geographicsubaddress_GeographicAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="26" schemaName="Active Local Places" displayName="Active Local Places" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" id="{ce16113d-f413-47db-96c4-ef8e219d0e86}" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="26" schemaName="Geographic Sub Address Lookup View" displayName="Geographic Sub Address Lookup View" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" id="{adb0eddb-6f13-4e7b-84b0-8cdf91fc06a0}" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="26" schemaName="Geographic Address Lookup View" displayName="Geographic Address Lookup View" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" id="{7986151f-e3e3-4bf5-9a93-1fb0464047e8}" />
+        <Dependent key="25" type="60" displayName="Information" parentDisplayName="Local Place" id="{2d6c3600-75d4-4bfb-b161-af7b323c96c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="1" schemaName="mstelco_serviceareageoplace" displayName="Service Area Geographical Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="Active" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="Active" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="2" schemaName="mstelco_geographiclocation" displayName="Geographic Location" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="2" schemaName="mstelco_networkzoneid" displayName="Network Zone" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="2" schemaName="mstelco_description" displayName="Description" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="2" schemaName="mstelco_externalid" displayName="External ID" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="Active" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="10" schemaName="mstelco_externalsystem_mstelco_servicearea_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_servicearea_ExternalSystemId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="10" schemaName="mstelco_networkzone_mstelco_servicearea_NetworkZoneId" displayName="mstelco_networkzone_mstelco_servicearea_NetworkZoneId" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="10" schemaName="mstelco_servicearea_mstelco_serviceareageoplace_ServiceAreaId" displayName="mstelco_servicearea_mstelco_serviceareageoplace_ServiceAreaId" parentSchemaName="mstelco_serviceareageoplace" parentDisplayName="Service Area Geographical Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="10" schemaName="mstelco_ServiceArea_GeographicLocation_ms" displayName="mstelco_ServiceArea_GeographicLocation_ms" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="10" schemaName="mstelco_servicearea_mstelco_serviceareatechnology" displayName="mstelco_servicearea_mstelco_serviceareatechnology" parentSchemaName="mstelco_servicearea" parentDisplayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="26" schemaName="Active Service Area Geographical Places" displayName="Active Service Area Geographical Places" parentSchemaName="mstelco_serviceareageoplace" parentDisplayName="Service Area Geographical Place" solution="TelcoCommonCDM (1.0.1.22)" id="{1a835436-a4e8-4da7-aafb-ea2b5c761330}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="26" schemaName="Sub-grid: Service Area Geographic Places" displayName="Sub-grid: Service Area Geographic Places" parentSchemaName="mstelco_serviceareageoplace" parentDisplayName="Service Area Geographical Place" solution="TelcoCommonCDM (1.0.1.22)" id="{a54d55d4-ba23-eb11-a813-000d3a4df1cd}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="26" schemaName="Geographic Location Lookup Polygon View" displayName="Geographic Location Lookup Polygon View" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{4fdeca0d-2967-eb11-a812-002248200afc}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="26" schemaName="Active Geographic Locations" displayName="Active Geographic Locations" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{dd317a91-3c3f-4116-a57f-56e2755fdc74}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="26" schemaName="Active Service Area Technologies" displayName="Active Service Area Technologies" parentSchemaName="mstelco_serviceareatechnology" parentDisplayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.22)" id="{70c80ac7-2421-4cd2-9d09-35fd467bcad4}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="26" schemaName="Geographic Location Lookup View" displayName="Geographic Location Lookup View" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{4299b02b-991f-4e88-9bbf-44fe27013a5a}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="26" schemaName="Geographic Location Lookup Points View" displayName="Geographic Location Lookup Points View" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{79926fa8-8c5f-eb11-a812-000d3a8e2c32}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="26" schemaName="Inactive Geographic Locations" displayName="Inactive Geographic Locations" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{c43c8f64-7c38-4f46-bc7d-783842444158}" />
+        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Service Area" id="{afb00e07-3207-4811-8d38-4eda83b75c6f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="1" schemaName="mstelco_geographicpoint" displayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="mstelco_circleradius" displayName="Circle Radius" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="Active" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="2" schemaName="mstelco_boundingboxnwlatitude" displayName="Bounding Box NW Latitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="2" schemaName="mstelco_externalid" displayName="External ID" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="2" schemaName="mstelco_description" displayName="Description" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="2" schemaName="mstelco_pointcount" displayName="Point Count" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="Active" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="2" schemaName="mstelco_boundingboxnwlongitude" displayName="Bounding Box NW Longitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="2" schemaName="mstelco_accuracy" displayName="Accuracy" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="2" schemaName="mstelco_boundingboxselongitude" displayName="Bounding Box SE Longitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="mstelco_boundingboxselatitude" displayName="Bounding Box SE Latitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="Active" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="mstelco_spatialreference" displayName="Spatial Reference" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="mstelco_jsonmetadata" displayName="Azure Maps JSON Metadata" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="98" type="2" schemaName="mstelco_centerlatitude" displayName="Center Latitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="mstelco_circleradiusunit" displayName="Circle Radius Unit" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="2" schemaName="mstelco_geometrictype" displayName="Geometric Type" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="2" schemaName="mstelco_geojson" displayName="GeoJSON" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="103" type="2" schemaName="mstelco_centerlongitude" displayName="Center Longitude" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="104" type="10" schemaName="mstelco_externalsystem_mstelco_geographiclocation_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_geographiclocation_ExternalSystemId" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="10" schemaName="mstelco_geographiclocation_mstelco_geographicplace_GeographicLocationId" displayName="mstelco_geographiclocation_mstelco_geographicplace_GeographicLocationId" parentSchemaName="mstelco_geographicplace" parentDisplayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="10" schemaName="mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId" displayName="mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="10" schemaName="mstelco_geographiclocation_mstelco_geographicpoint_GeographicLocationId" displayName="mstelco_geographiclocation_mstelco_geographicpoint_GeographicLocationId" parentSchemaName="mstelco_geographicpoint" parentDisplayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="26" schemaName="Geographic Location Sub-grid" displayName="Geographic Location Sub-grid" parentSchemaName="mstelco_geographicpoint" parentDisplayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" id="{577f5782-bd27-eb11-a813-000d3a4df1cd}" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="26" schemaName="Active Geographic Points" displayName="Active Geographic Points" parentSchemaName="mstelco_geographicpoint" parentDisplayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" id="{a355ee85-63d3-4e01-9bc8-a8fd3e742257}" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2103.4016)" />
+        <Dependent key="79" type="60" displayName="Information" parentDisplayName="Geographic Location" id="{0f108385-2b86-4abe-ac85-7e86fb76cba0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="1" schemaName="mstelco_geographicsubaddress" displayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="2" schemaName="mstelco_postalcode" displayName="Zip/Postal Code" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="113" type="2" schemaName="mstelco_streetnumber" displayName="Street Number" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="2" schemaName="mstelco_stateorprovince" displayName="State/Province" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="115" type="2" schemaName="mstelco_latitude" displayName="Latitude" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="116" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="117" type="2" schemaName="mstelco_streetnumberfirstsuffix" displayName="Street Number First Suffix" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="2" schemaName="mstelco_evenorodd" displayName="Even or Odd" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="119" type="2" schemaName="mstelco_geographiclocationid" displayName="Geographic Location" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="120" type="2" schemaName="mstelco_longitude" displayName="Longitude" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="121" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="Active" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="122" type="2" schemaName="mstelco_externalid" displayName="External ID" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="123" type="2" schemaName="mstelco_streetnumberlastsuffix" displayName="Street Number Last Suffix" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="124" type="2" schemaName="mstelco_geographicaddressstatus" displayName="Address Status" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="125" type="2" schemaName="mstelco_streetnumberfirst" displayName="Street Number First" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="126" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="Active" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="127" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="Active" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="128" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="129" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="130" type="2" schemaName="mstelco_locality" displayName="Locality" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="131" type="2" schemaName="mstelco_country" displayName="Country" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="132" type="2" schemaName="mstelco_type" displayName="Type" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="133" type="2" schemaName="mstelco_city" displayName="City" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="134" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="135" type="2" schemaName="mstelco_streetname" displayName="Street Name" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="136" type="2" schemaName="mstelco_streetnumberlast" displayName="Street Number Last" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="137" type="2" schemaName="mstelco_streettype" displayName="Street Type" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="138" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="10" schemaName="mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId" displayName="mstelco_geographiclocation_mstelco_geographicaddress_GeographicLocationId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="mstelco_geographicaddress_mstelco_localplace_GeographicAddressId" displayName="mstelco_geographicaddress_mstelco_localplace_GeographicAddressId" parentSchemaName="mstelco_localplace" parentDisplayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="10" schemaName="mstelco_geographicaddress_mstelco_geographicsubaddress_GeographicAddressId" displayName="mstelco_geographicaddress_mstelco_geographicsubaddress_GeographicAddressId" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="139" type="10" schemaName="mstelco_externalsystem_mstelco_geographicaddress_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_geographicaddress_ExternalSystemId" parentSchemaName="mstelco_geographicaddress" parentDisplayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="140" type="26" schemaName="Active Geographic Sub Addresses" displayName="Active Geographic Sub Addresses" parentSchemaName="mstelco_geographicsubaddress" parentDisplayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" id="{157a1ecc-05a7-4319-a069-21e31782752c}" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="26" schemaName="Geographic Location Lookup Points View" displayName="Geographic Location Lookup Points View" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{79926fa8-8c5f-eb11-a812-000d3a8e2c32}" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="26" schemaName="Geographic Location Lookup View" displayName="Geographic Location Lookup View" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" id="{4299b02b-991f-4e88-9bbf-44fe27013a5a}" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2103.4016)" />
+        <Dependent key="112" type="60" displayName="Information" parentDisplayName="Geographic Address" id="{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="Active" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="143" type="2" schemaName="mstelco_string" displayName="String" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="144" type="2" schemaName="mstelco_parentnetworkresourceid" displayName="Parent Network Resource" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="145" type="2" schemaName="mstelco_externalid" displayName="External ID" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="146" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="147" type="2" schemaName="mstelco_make" displayName="Make" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="148" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="Active" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="149" type="2" schemaName="mstelco_macaddress" displayName="MAC Address" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="150" type="2" schemaName="mstelco_accountid" displayName="Account" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="151" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="Active" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="152" type="2" schemaName="mstelco_localplaceid" displayName="Local Place" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="153" type="2" schemaName="mstelco_model" displayName="Model" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="154" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="2" schemaName="mstelco_typeid" displayName="Type" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="2" schemaName="mstelco_code" displayName="Code" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="155" type="2" schemaName="mstelco_externalsystemid" displayName="External System" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="156" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="2" schemaName="mstelco_networkzoneid" displayName="Network Zone" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="157" type="2" schemaName="mstelco_manufacturer" displayName="Manufacturer" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="158" type="2" schemaName="mstelco_installdate" displayName="Install Date" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="10" schemaName="mstelco_localplace_mstelco_networkresource_LocalPlaceId" displayName="mstelco_localplace_mstelco_networkresource_LocalPlaceId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="159" type="10" schemaName="mstelco_networkresource_mstelco_networkresource_ParentNetworkResourceId" displayName="mstelco_networkresource_mstelco_networkresource_ParentNetworkResourceId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="10" schemaName="mstelco_networkzone_mstelco_networkresource_NetworkZoneId" displayName="mstelco_networkzone_mstelco_networkresource_NetworkZoneId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="160" type="10" schemaName="mstelco_account_mstelco_networkresource_AccountId" displayName="mstelco_account_mstelco_networkresource_AccountId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="mstelco_networkresourcetype_mstelco_networkresource_TypeId" displayName="mstelco_networkresourcetype_mstelco_networkresource_TypeId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="161" type="10" schemaName="mstelco_externalsystem_mstelco_networkresource_ExternalSystemId" displayName="mstelco_externalsystem_mstelco_networkresource_ExternalSystemId" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="162" type="26" schemaName="Active Network Resources" displayName="Active Network Resources" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" id="{6c0bbfb7-ff00-4bab-ba69-ad2f64d1074b}" />
+        <Dependent key="142" type="60" displayName="Information" parentDisplayName="Network Resource" id="{3ad219f1-138b-427a-880a-2586d195e9b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="164" type="29" displayName="Geographic Location - Update JSON in Geoagraphic Location on change of radius" id="{40999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="mstelco_circleradius" displayName="Circle Radius" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="164" type="29" displayName="Geographic Location - Update JSON in Geoagraphic Location on change of radius" id="{40999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="mstelco_circleradiusunit" displayName="Circle Radius Unit" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="164" type="29" displayName="Geographic Location - Update JSON in Geoagraphic Location on change of radius" id="{40999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="165" type="29" displayName="Geographic Location - Create Geographic Points On Update of Azure Maps JSON Metadata" id="{3f999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="1" schemaName="mstelco_geographicpoint" displayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="165" type="29" displayName="Geographic Location - Create Geographic Points On Update of Azure Maps JSON Metadata" id="{3f999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="mstelco_jsonmetadata" displayName="Azure Maps JSON Metadata" parentSchemaName="mstelco_geographiclocation" parentDisplayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="165" type="29" displayName="Geographic Location - Create Geographic Points On Update of Azure Maps JSON Metadata" id="{3f999e4b-8d8e-eb11-a812-000d3a1f6fdb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="mstelco_networkresource" displayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="1" schemaName="mstelco_servicearea" displayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="168" type="1" schemaName="mstelco_networkresourcetype" displayName="Network Resource Type" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="1" schemaName="mstelco_geographicpoint" displayName="Geographic Point" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="1" schemaName="mstelco_geographicsubaddress" displayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="1" schemaName="mstelco_serviceareageoplace" displayName="Service Area Geographical Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="169" type="1" schemaName="mstelco_networkoperatingcenter" displayName="Network Operating Center" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="170" type="1" schemaName="mstelco_geographicplace" displayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="171" type="1" schemaName="mstelco_network" displayName="Network" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="166" type="80" schemaName="mstelco_PlaceManagement" displayName="Place Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="172" type="300" schemaName="mstelco_findgeoaddress_362de" displayName="Find Geo Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="173" type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.72)" />
+        <Dependent key="172" type="300" schemaName="mstelco_findgeoaddress_362de" displayName="Find Geo Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="174" type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.72)" />
+        <Dependent key="172" type="300" schemaName="mstelco_findgeoaddress_362de" displayName="Find Geo Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="mstelco_networkresource" displayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="1" schemaName="mstelco_servicearea" displayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="1" schemaName="mstelco_serviceareatechnology" displayName="Service Area Technology" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="168" type="1" schemaName="mstelco_networkresourcetype" displayName="Network Resource Type" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="171" type="1" schemaName="mstelco_network" displayName="Network" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="mstelco_place" displayName="Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="169" type="1" schemaName="mstelco_networkoperatingcenter" displayName="Network Operating Center" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="1" schemaName="mstelco_geographicsubaddress" displayName="Geographic Sub-Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="170" type="1" schemaName="mstelco_geographicplace" displayName="Geographic Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="176" type="61" schemaName="msdyn_/Images/Area_Default_Icon.png" displayName="msdyn_/Images/Area_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="175" type="62" schemaName="mstelco_PlaceManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="8" type="1" schemaName="mstelco_networkzone" displayName="Network Zone" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="163" type="1" schemaName="mstelco_geographiclocation" displayName="Geographic Location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="mstelco_networkresource" displayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="12" type="1" schemaName="mstelco_networkresource" displayName="Network Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="0" type="1" schemaName="mstelco_localplace" displayName="Local Place" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="4" type="1" schemaName="mstelco_geographicaddress" displayName="Geographic Address" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="1" schemaName="mstelco_servicearea" displayName="Service Area" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="167" type="1" schemaName="mstelco_servicearea" displayName="Service Area" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="156" type="2" schemaName="mstelco_name" displayName="Name" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" solution="TelcoCommonCDM (1.0.1.22)" />
+        <Dependent key="177" type="65" schemaName="Network Resource Hierarchy" displayName="Network Resource Hierarchy" parentSchemaName="mstelco_networkresource" parentDisplayName="Network Resource" id="{219b0ab9-c42a-eb11-a813-000d3a4df348}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

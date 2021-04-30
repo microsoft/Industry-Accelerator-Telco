@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mstelco_streettype" localizedName="Street Type" description="Street Type of the Geographic Address." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Street Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Street Type of the Geographic Address." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="719830001" ExternalValue="" Color="">
+      <labels>
+        <label description="Alley" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830002" ExternalValue="" Color="">
+      <labels>
+        <label description="Avenue" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830003" ExternalValue="" Color="">
+      <labels>
+        <label description="Boulevard" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830008" ExternalValue="" Color="">
+      <labels>
+        <label description="Court" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830004" ExternalValue="" Color="">
+      <labels>
+        <label description="Drive" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830009" ExternalValue="" Color="">
+      <labels>
+        <label description="Freeway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830011" ExternalValue="" Color="">
+      <labels>
+        <label description="Garden" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830005" ExternalValue="" Color="">
+      <labels>
+        <label description="Highway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830006" ExternalValue="" Color="">
+      <labels>
+        <label description="Lane" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830010" ExternalValue="" Color="">
+      <labels>
+        <label description="Motorway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830007" ExternalValue="" Color="">
+      <labels>
+        <label description="Parkway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830015" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pass" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830012" ExternalValue="" Color="">
+      <labels>
+        <label description="Place" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830016" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Route" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830000" ExternalValue="" Color="">
+      <labels>
+        <label description="Street" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830014" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Way" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830013" ExternalValue="" Color="">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

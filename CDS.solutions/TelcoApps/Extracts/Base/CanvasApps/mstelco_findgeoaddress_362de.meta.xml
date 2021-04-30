@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mstelco_findgeoaddress_362de</Name>
+  <AppVersion>2021-01-22T21:10:11Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20123.24.0</CreatedByClientVersion>
+  <MinClientVersion>3.20123.24.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"800","primaryDeviceHeight":"600","sienaVersion":"f62bf33b-0ec8-48cf-8d97-593b910ea421","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20123.24","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 99, 177, 1)</BackgroundColor>
+  <DisplayName>Find Geo Address</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"8b4e39b1-0ef3-4960-941f-90994f8fd19f":{"id":"/providers/microsoft.powerapps/apis/shared_mstelco-5ffind-20location-20with-20azure-20v2-5fe7c96f47d5ceedcf","displayName":"Find Location with Azure v2","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["Defaulttitle"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["map"],"customApiLogicalName":"mstelco_5ffind-20location-20with-20azure-20v2","isCustomApiSolutionAware":true}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Geographic Addresses":{"entitySetName":"mstelco_geographicaddresses","logicalName":"mstelco_geographicaddress"},"Duplicate Records":{"entitySetName":"duplicaterecords","logicalName":"duplicaterecord"},"Environment Variable Definitions":{"entitySetName":"environmentvariabledefinitions","logicalName":"environmentvariabledefinition"},"Environment Variable Values":{"entitySetName":"environmentvariablevalues","logicalName":"environmentvariablevalue"}}}}</DatabaseReferences>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mstelco_5ffind-20location-20with-20azure-20v2","componenttype":372,"componenttypeplatformname":"connector"},{"logicalname":"mstelco_geographicaddress","componenttype":1},{"logicalname":"duplicaterecord","componenttype":1},{"logicalname":"environmentvariabledefinition","componenttype":1},{"logicalname":"environmentvariablevalue","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/mstelco_findgeoaddress_362de_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mstelco_findgeoaddress_362de_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

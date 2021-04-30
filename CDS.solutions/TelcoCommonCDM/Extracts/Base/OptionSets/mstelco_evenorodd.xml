@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mstelco_evenorodd" localizedName="Even or Odd" description="Specifies whether street number range for ranged address includes odd numbers, even numbers or both." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Even or Odd" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Specifies whether street number range for ranged address includes odd numbers, even numbers or both." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="719830000">
+      <labels>
+        <label description="Even Numbers" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830001">
+      <labels>
+        <label description="Odd Numbers" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="719830002">
+      <labels>
+        <label description="Both Even &amp; Odd Numbers" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0dfee497-5765-4bab-87a4-d78fb3cb9d3c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{54a9a3c2-cd51-4fd4-bc6f-0b52952b9721}" IsUserDefined="1" name="{54a9a3c2-cd51-4fd4-bc6f-0b52952b9721}" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{629d2ebd-320b-4e2a-ae84-e6aa39363dfe}" name="{629d2ebd-320b-4e2a-ae84-e6aa39363dfe}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d905ab78-14ec-5dce-bd53-0ad6be46e317}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{5664222d-deb8-a846-e9a3-c9d2837647ca}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Address Status" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_geographicaddressstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mstelco_geographicaddressstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1">
+              <sections>
+                <section name="{54a9a3c2-cd51-4fd4-bc6f-0b52952b9721}_section_2" showlabel="true" showbar="false" locklevel="0" id="{3dbd0b69-424b-b2c0-3c55-b7a8210333b0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Modified" />
+                <section name="{54a9a3c2-cd51-4fd4-bc6f-0b52952b9721}_section_4" showlabel="true" showbar="false" locklevel="0" id="{d5d1c358-0cab-aa6b-dd09-c12332922889}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{0c718be9-d62c-5130-c658-b34033a892d2}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <control id="mstelco_externalsystemid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mstelco_externalsystemid" disabled="false" uniqueid="{a253b602-c051-88c2-73d7-a78edb6ac4a1}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{54a9a3c2-cd51-4fd4-bc6f-0b52952b9721}_section_6" showlabel="false" showbar="false" locklevel="0" id="{16103ece-e2a0-8bb9-ec91-6ed441a56e6e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{7cae0830-008b-9d98-421e-0aaac43c806b}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{0cc96484-ccd6-8209-a8bd-1787909eecb1}" showlabel="false" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Street Number Last Suffix" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_streetnumberlastsuffix" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="mstelco_streetnumberlastsuffix" disabled="false" uniqueid="{4bb05a75-837e-7c59-d4ba-b218c45023b0}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="geographicsubaddress" id="{bea5e002-3e6b-6a52-0ea9-993dc2710462}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{a6d03793-161e-2b99-d03b-54019c3642bb}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{139c0e95-3833-2153-b925-53c280667043}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10000">
+                        <control id="geographicsubaddress_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a0dad196-9ccb-bdad-3588-4432cc76933e}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="notes" id="{ddcac230-0496-a2e7-c6a5-c232392c8350}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="3" solutionaction="Modified" />
+        <tab name="admin" id="{8d382a3c-84d5-d3e6-eb8d-54e33b4583c8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="4" solutionaction="Modified" />
+        <tab name="find_Address" id="de883855-f222-4247-a554-88e9583b9c2c" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Find Address" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_4_section_01" id="08ae3d0b-252f-47bb-9562-3907202145b5" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4792a846-8ee8-1dec-c151-3e8bc49ded5c}" showlabel="false" locklevel="0" colspan="1" visible="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Street Number" languagecode="1033" />
+                        </labels>
+                        <control id="mstelco_streetnumber" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="mstelco_streetnumber" disabled="false" uniqueid="{ea651d9d-02c1-de64-058e-d76193369c8b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{ea651d9d-02c1-de64-058e-d76193369c8b}" solutionaction="Added">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>mstelco_streetnumber</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>mstelco_streetnumber</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Geographic Address</entityName>
+              <appName static="true" type="SingleLine.Text">mstelco_findgeoaddress_362de</appName>
+              <appId static="true" type="SingleLine.Text">eb8cc8a2-af4f-4234-b21c-f805bcb1c2d2</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>mstelco_streetnumber</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Geographic Address</entityName>
+              <appName static="true" type="SingleLine.Text">mstelco_findgeoaddress_362de</appName>
+              <appId static="true" type="SingleLine.Text">eb8cc8a2-af4f-4234-b21c-f805bcb1c2d2</appId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>mstelco_streetnumber</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Geographic Address</entityName>
+              <appName static="true" type="SingleLine.Text">mstelco_findgeoaddress_362de</appName>
+              <appId static="true" type="SingleLine.Text">eb8cc8a2-af4f-4234-b21c-f805bcb1c2d2</appId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4bb05a75-837e-7c59-d4ba-b218c45023b0}" solutionaction="Added">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="0">
+            <parameters>
+              <datafieldname>mstelco_streetnumberlastsuffix</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="1">
+            <parameters>
+              <datafieldname>mstelco_streetnumberlastsuffix</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="mstelco_PCFControls.DataFromMap">
+            <parameters>
+              <jsonMapData>mstelco_streetnumberlastsuffix</jsonMapData>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <header id="{e1f9a6d1-6b0c-42dd-be0b-44e8a6b11aaf}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Modified">
+        <rows>
+          <row>
+            <cell id="{d0b1c510-f8c3-4b1f-ac9d-ac0aec102a34}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{f2029cce-bab2-4326-ba34-85c34911be97}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{4c4cab0d-9f0a-4553-a153-d916d7b6b06a}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{ff99d25a-4766-4d0f-a7cc-88f7d2e891b6}" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d5acb1e8-5bd4-4522-8932-7f36d5dcd9ee}" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{21a5ed72-e88c-404e-9f8e-af6f2547383d}" ordinalvalue="30002" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{94b9b5d7-de62-47c6-a6b5-8d7e82ab7276}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Modified">
+        <rows>
+          <row>
+            <cell id="{cfa47c06-df16-44b8-84bc-bdf87642f3d4}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+            <cell id="{5ca71f39-c70e-40bb-a41f-902f3d6d9606}" showlabel="false" ordinalvalue="20001" solutionaction="Removed" />
+            <cell id="{5d249320-3a4e-4a23-8a56-daf829583775}" showlabel="false" ordinalvalue="30002" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{a940c147-2e74-4a22-9591-e3f81f429ef2}" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d868496e-f245-4ea3-8eb8-6d11300d2dcf}" ordinalvalue="20001" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9e5f2b12-b891-4986-8756-68eb6d418f1f}" ordinalvalue="30002" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

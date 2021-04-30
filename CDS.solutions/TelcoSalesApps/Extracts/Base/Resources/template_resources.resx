@@ -1,0 +1,1132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>TelcoSalesApps_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,environmentvariabledefinitiondescription" xml:space="preserve">
+    <value>The key used to access Azure Maps S1 or greater subscription.</value>
+    <comment>label</comment>
+  </data>
+  <data name="100000:label,environmentvariabledefinitiondisplayname" xml:space="preserve">
+    <value>Azure Maps Subscription Key (S1+)</value>
+    <comment>label</comment>
+  </data>
+  <data name="10:Description,bpf_lead_mstelco_leadserviceabilityflow" xml:space="preserve">
+    <value />
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'bpf_lead_mstelco_leadserviceabilityflow'</comment>
+  </data>
+  <data name="10:Description,lk_mstelco_leadserviceabilityflow_activestageid" xml:space="preserve">
+    <value>Unique identifier of the active stage for the Business Process Flow instance.</value>
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'lk_mstelco_leadserviceabilityflow_activestageid'</comment>
+  </data>
+  <data name="10:Description,lk_mstelco_leadserviceabilityflow_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'lk_mstelco_leadserviceabilityflow_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_mstelco_leadserviceabilityflow_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'lk_mstelco_leadserviceabilityflow_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_mstelco_leadserviceabilityflow_processid" xml:space="preserve">
+    <value>Unique identifier of the workflow associated to the Business Process Flow instance.</value>
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'lk_mstelco_leadserviceabilityflow_processid'</comment>
+  </data>
+  <data name="10:Description,mstelco_geographicaddress_lead_GeographicAddressId" xml:space="preserve">
+    <value>Lookup to Geographic Address for the lead service address.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_geographicaddress_lead_GeographicAddressId'</comment>
+  </data>
+  <data name="10:Description,mstelco_geographiclocation_lead_GeographicLocationId" xml:space="preserve">
+    <value>Lookup to Geographic Location for the lead service address.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_geographiclocation_lead_GeographicLocationId'</comment>
+  </data>
+  <data name="10:Description,mstelco_geographicplace_lead_GeographicPlaceId" xml:space="preserve">
+    <value>Lookup to Geographic Place for the lead service address.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_geographicplace_lead_GeographicPlaceId'</comment>
+  </data>
+  <data name="10:Description,mstelco_localplace_lead_DemarcationPointId" xml:space="preserve">
+    <value>Lookup to Local Place defining Demarcation Point.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_localplace_lead_DemarcationPointId'</comment>
+  </data>
+  <data name="10:Description,mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId" xml:space="preserve">
+    <value>Lookup to Geographic Sub Address for the lead service address.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_mstelco_geographicsubaddress_lead_GeographicSubAddressId'</comment>
+  </data>
+  <data name="10:Description,mstelco_servicearea_lead_ServiceAreaId" xml:space="preserve">
+    <value>Lookup to Primary Service Area for the lead.</value>
+    <comment>Lead Description for EntityRelationship 'mstelco_servicearea_lead_ServiceAreaId'</comment>
+  </data>
+  <data name="10:Description,organization_mstelco_leadserviceabilityflow" xml:space="preserve">
+    <value>Unique identifier for the organization</value>
+    <comment>mstelco_leadserviceabilityflow Description for EntityRelationship 'organization_mstelco_leadserviceabilityflow'</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoftdynamics365telcomstelco71983" xml:space="preserve">
+    <value>Microsoft Dynamics 365 Telco</value>
+    <comment> 'microsoftdynamics365telco' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,TelcoSalesApps" xml:space="preserve">
+    <value>Telco Sales Apps</value>
+    <comment> 'TelcoSalesApps' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Lead Serviceability Flow{61c1530f-aed1-4d58-9a23-27797e462b56}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Lead Serviceability Flow' : Description for systemform in Entity FormXml ID: '{61c1530f-aed1-4d58-9a23-27797e462b56}'</comment>
+  </data>
+  <data name="1:Description,Lead Serviceability Flow{8a73f897-bf1f-eb11-a813-000d3a111312}" xml:space="preserve">
+    <value>All active Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : Description for SavedQuery on Entity QueryId: '{8a73f897-bf1f-eb11-a813-000d3a111312}'</comment>
+  </data>
+  <data name="1:Description,LeadAddress1_County" xml:space="preserve">
+    <value>Type the county for the primary address.</value>
+    <comment>'Lead' : Description for Attribute 'Address1_County' on Entity</comment>
+  </data>
+  <data name="1:Description,LeadAddress1_Latitude" xml:space="preserve">
+    <value>Type the latitude value for the primary address for use in mapping and other applications.</value>
+    <comment>'Lead' : Description for Attribute 'Address1_Latitude' on Entity</comment>
+  </data>
+  <data name="1:Description,LeadAddress1_Longitude" xml:space="preserve">
+    <value>Type the longitude value for the primary address for use in mapping and other applications.</value>
+    <comment>'Lead' : Description for Attribute 'Address1_Longitude' on Entity</comment>
+  </data>
+  <data name="1:Description,LeadentityLead" xml:space="preserve">
+    <value>Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.</value>
+    <comment> 'Lead' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,Lead{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Updated default Lead form</value>
+    <comment>'Lead' : Description for systemform in Entity FormXml ID: '{129da70b-c11f-eb11-a814-000d3a8bf344}'</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowActiveStageId" xml:space="preserve">
+    <value>Unique identifier of the active stage for the Business Process Flow instance.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowActiveStageStartedOn" xml:space="preserve">
+    <value>Date and time when current active stage is started</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ActiveStageStartedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowbpf_Duration" xml:space="preserve">
+    <value>Duration of Business Process Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'bpf_Duration' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowbpf_leadid" xml:space="preserve">
+    <value />
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'bpf_leadid' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowbpf_name" xml:space="preserve">
+    <value>Description</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'bpf_name' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowBusinessProcessFlowInstanceId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'BusinessProcessFlowInstanceId' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowCompletedOn" xml:space="preserve">
+    <value>Date and time when Business Process Flow instance is completed.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'CompletedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowentitymstelco_leadserviceabilityflow" xml:space="preserve">
+    <value>Base entity for process Lead Serviceability Flow</value>
+    <comment> 'mstelco_leadserviceabilityflow' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statecode" xml:space="preserve">
+    <value>Status of the Lead Serviceability Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for OptionSet 'mstelco_leadserviceabilityflow_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Lead Serviceability Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for OptionSet 'mstelco_leadserviceabilityflow_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowOrganizationId" xml:space="preserve">
+    <value>Unique identifier for the organization</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowProcessId" xml:space="preserve">
+    <value>Unique identifier of the workflow associated to the Business Process Flow instance.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowstatecode" xml:space="preserve">
+    <value>Status of the Lead Serviceability Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Lead Serviceability Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowTraversedPath" xml:space="preserve">
+    <value>Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:Description,mstelco_leadserviceabilityflowUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'mstelco_leadserviceabilityflow' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,LeadAddress1_County" xml:space="preserve">
+    <value>County</value>
+    <comment>'Lead' : displayname for Attribute 'Address1_County' on Entity</comment>
+  </data>
+  <data name="1:displayname,LeadAddress1_Latitude" xml:space="preserve">
+    <value>Latitude</value>
+    <comment>'Lead' : displayname for Attribute 'Address1_Latitude' on Entity</comment>
+  </data>
+  <data name="1:displayname,LeadAddress1_Longitude" xml:space="preserve">
+    <value>Longitude</value>
+    <comment>'Lead' : displayname for Attribute 'Address1_Longitude' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowActiveStageId" xml:space="preserve">
+    <value>Active Stage</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowActiveStageStartedOn" xml:space="preserve">
+    <value>Active Stage Started On</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ActiveStageStartedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowbpf_Duration" xml:space="preserve">
+    <value>Duration</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'bpf_Duration' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowbpf_leadid" xml:space="preserve">
+    <value>Lead</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'bpf_leadid' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowbpf_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'bpf_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowBusinessProcessFlowInstanceId" xml:space="preserve">
+    <value>Lead Serviceability Flow</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'BusinessProcessFlowInstanceId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowCompletedOn" xml:space="preserve">
+    <value>Completed On</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'CompletedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for OptionSet 'mstelco_leadserviceabilityflow_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for OptionSet 'mstelco_leadserviceabilityflow_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowOrganizationId" xml:space="preserve">
+    <value>Organization Id</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowProcessId" xml:space="preserve">
+    <value>Process</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowTraversedPath" xml:space="preserve">
+    <value>Traversed Path</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:displayname,mstelco_leadserviceabilityflowUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'mstelco_leadserviceabilityflow' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{0621efd7-be38-4099-8cf7-aa4bcab9043b}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{0621efd7-be38-4099-8cf7-aa4bcab9043b}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{06533877-cad2-064b-1627-32e90ee972be}" xml:space="preserve">
+    <value>Device Discovery</value>
+    <comment>'Lead Serviceability Flow' : label for section in Entity FormXml ID: '{06533877-cad2-064b-1627-32e90ee972be}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{0dd46ba6-8b1b-44d9-bc3e-bf90c2c46cc5}" xml:space="preserve">
+    <value>County</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{0dd46ba6-8b1b-44d9-bc3e-bf90c2c46cc5}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{15691b2b-a316-4c1a-a3fa-c10dca9ba6af}" xml:space="preserve">
+    <value>Device Discovery</value>
+    <comment>'Lead Serviceability Flow' : label for tab in Entity FormXml ID: '{15691b2b-a316-4c1a-a3fa-c10dca9ba6af}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{17a39d91-a477-404d-94c3-5216a7fcbf9e}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{17a39d91-a477-404d-94c3-5216a7fcbf9e}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{1d898d96-70c8-42f7-9e25-915a47e75732}" xml:space="preserve">
+    <value>Service Area</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{1d898d96-70c8-42f7-9e25-915a47e75732}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{1e53a94b-6084-4995-bd6b-a43976871f63}" xml:space="preserve">
+    <value>Geographic Sub-Address</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{1e53a94b-6084-4995-bd6b-a43976871f63}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{1e541b95-41d4-4547-bd9a-d084405ea97c}" xml:space="preserve">
+    <value>Demarcation Point</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{1e541b95-41d4-4547-bd9a-d084405ea97c}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{2f4e09a3-7098-626e-596a-40da26794a77}" xml:space="preserve">
+    <value>Service Area Check</value>
+    <comment>'Lead Serviceability Flow' : label for section in Entity FormXml ID: '{2f4e09a3-7098-626e-596a-40da26794a77}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{404a5f7d-3a92-413a-a870-808ec30412d7}" xml:space="preserve">
+    <value>Street 2</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{404a5f7d-3a92-413a-a870-808ec30412d7}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{42de0b78-a8c5-4dcb-a0d3-8a90812e86c9}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{42de0b78-a8c5-4dcb-a0d3-8a90812e86c9}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{49502200-b6ee-4159-9948-a73b022c5ac9}" xml:space="preserve">
+    <value>Network Proximity</value>
+    <comment>'Lead Serviceability Flow' : label for tab in Entity FormXml ID: '{49502200-b6ee-4159-9948-a73b022c5ac9}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{6077e282-2f3b-45af-aa05-41e3e478da32}" xml:space="preserve">
+    <value>Geographic Location</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{6077e282-2f3b-45af-aa05-41e3e478da32}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{70c1c9d1-e74c-48f7-b285-4e4a76a006cc}" xml:space="preserve">
+    <value>Street 1</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{70c1c9d1-e74c-48f7-b285-4e4a76a006cc}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{75f10976-6808-4a8c-8f5d-ab2edb139e33}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{75f10976-6808-4a8c-8f5d-ab2edb139e33}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{8a17ad41-95b0-4960-a6b2-383ac5afe726}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{8a17ad41-95b0-4960-a6b2-383ac5afe726}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{906eddf2-dc40-4bd9-8e61-7fe4febc1b40}" xml:space="preserve">
+    <value>Service Area Check</value>
+    <comment>'Lead Serviceability Flow' : label for tab in Entity FormXml ID: '{906eddf2-dc40-4bd9-8e61-7fe4febc1b40}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{af2e23b5-3ad6-58d4-be23-5bd9c66a9bca}" xml:space="preserve">
+    <value>Network Proximity</value>
+    <comment>'Lead Serviceability Flow' : label for section in Entity FormXml ID: '{af2e23b5-3ad6-58d4-be23-5bd9c66a9bca}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{be29ce86-3b82-60a5-ef5e-55218a59b0a7}" xml:space="preserve">
+    <value>Premise Check</value>
+    <comment>'Lead Serviceability Flow' : label for section in Entity FormXml ID: '{be29ce86-3b82-60a5-ef5e-55218a59b0a7}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{c840cda9-ad97-4095-980e-1d4af797c639}" xml:space="preserve">
+    <value>Geographic Address</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{c840cda9-ad97-4095-980e-1d4af797c639}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{df5a6bf5-a983-4d94-90e8-d82a237c7b7c}" xml:space="preserve">
+    <value>Geographic Place</value>
+    <comment>'Lead Serviceability Flow' : label for cell in Entity FormXml ID: '{df5a6bf5-a983-4d94-90e8-d82a237c7b7c}'</comment>
+  </data>
+  <data name="1:label,Lead Serviceability Flow{df72c758-1eb5-4ee7-9b48-fbc7faaf1dfc}" xml:space="preserve">
+    <value>Premise Check</value>
+    <comment>'Lead Serviceability Flow' : label for tab in Entity FormXml ID: '{df72c758-1eb5-4ee7-9b48-fbc7faaf1dfc}'</comment>
+  </data>
+  <data name="1:label,Lead6842eba1-199a-4ac7-881a-a9979c619613" xml:space="preserve">
+    <value>Serviceability</value>
+    <comment>'Lead' : label for tab in Entity FormXml ID: '6842eba1-199a-4ac7-881a-a9979c619613'</comment>
+  </data>
+  <data name="1:label,Leada964bc6e-ac71-4ac2-baa0-96a40545f33d" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: 'a964bc6e-ac71-4ac2-baa0-96a40545f33d'</comment>
+  </data>
+  <data name="1:label,Lead{000a81b8-e644-a904-e5e9-e4970ae91ada}" xml:space="preserve">
+    <value>Service Address</value>
+    <comment>'Lead' : label for tab in Entity FormXml ID: '{000a81b8-e644-a904-e5e9-e4970ae91ada}'</comment>
+  </data>
+  <data name="1:label,Lead{05a0b7d9-b602-493b-a773-e0c34e44be3c}" xml:space="preserve">
+    <value>No. of Employees</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{05a0b7d9-b602-493b-a773-e0c34e44be3c}'</comment>
+  </data>
+  <data name="1:label,Lead{09513d13-bb7d-43b6-ad5c-9598b82b099e}" xml:space="preserve">
+    <value>Source Campaign</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{09513d13-bb7d-43b6-ad5c-9598b82b099e}'</comment>
+  </data>
+  <data name="1:label,Lead{097bc91c-86e7-8993-21aa-a956e7229db4}" xml:space="preserve">
+    <value>Business Card</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{097bc91c-86e7-8993-21aa-a956e7229db4}'</comment>
+  </data>
+  <data name="1:label,Lead{10b75e6c-54f9-4c13-8850-5b90cad35c6f}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{10b75e6c-54f9-4c13-8850-5b90cad35c6f}'</comment>
+  </data>
+  <data name="1:label,Lead{114e72b3-6694-060d-1a39-ed414cb088c1}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{114e72b3-6694-060d-1a39-ed414cb088c1}'</comment>
+  </data>
+  <data name="1:label,Lead{13993a5a-1157-47e2-d46d-4366825e9821}" xml:space="preserve">
+    <value>Latitude</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{13993a5a-1157-47e2-d46d-4366825e9821}'</comment>
+  </data>
+  <data name="1:label,Lead{147177b9-f3b7-4475-adcd-7d27828b9bce}" xml:space="preserve">
+    <value>Geographic Address</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{147177b9-f3b7-4475-adcd-7d27828b9bce}'</comment>
+  </data>
+  <data name="1:label,Lead{154B1FC7-5CA6-4E51-9F37-47D11C2BB750}" xml:space="preserve">
+    <value>Documents Section</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{154B1FC7-5CA6-4E51-9F37-47D11C2BB750}'</comment>
+  </data>
+  <data name="1:label,Lead{18423214-41c8-14a6-e083-a1553623339b}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for section in Entity FormXml ID: '{18423214-41c8-14a6-e083-a1553623339b}'</comment>
+  </data>
+  <data name="1:label,Lead{1c95bd8b-7b2d-96b1-81a3-04a6dbcdecb0}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{1c95bd8b-7b2d-96b1-81a3-04a6dbcdecb0}'</comment>
+  </data>
+  <data name="1:label,Lead{1ce2b431-00c8-c99c-641b-de4be34a61b8}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{1ce2b431-00c8-c99c-641b-de4be34a61b8}'</comment>
+  </data>
+  <data name="1:label,Lead{1de94f13-a476-4765-bd9a-b8ffe2f29ed0}" xml:space="preserve">
+    <value>Follow email</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{1de94f13-a476-4765-bd9a-b8ffe2f29ed0}'</comment>
+  </data>
+  <data name="1:label,Lead{1FA8B52A-AEDA-4987-AB2B-B56F6350E62C}" xml:space="preserve">
+    <value>Documents</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{1FA8B52A-AEDA-4987-AB2B-B56F6350E62C}'</comment>
+  </data>
+  <data name="1:label,Lead{217425a8-a5f7-4b45-af7b-c9f4172a58f6}" xml:space="preserve">
+    <value>Serviceability Last Checked</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{217425a8-a5f7-4b45-af7b-c9f4172a58f6}'</comment>
+  </data>
+  <data name="1:label,Lead{238dc0d1-c7bb-48bf-bd46-81c9358c864b}" xml:space="preserve">
+    <value>Preferred</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{238dc0d1-c7bb-48bf-bd46-81c9358c864b}'</comment>
+  </data>
+  <data name="1:label,Lead{26e6720b-6c8c-4848-a8c1-4b8c8abe59f2}" xml:space="preserve">
+    <value>Topic</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{26e6720b-6c8c-4848-a8c1-4b8c8abe59f2}'</comment>
+  </data>
+  <data name="1:label,Lead{278d1b6f-44fe-4478-b51b-cfc90eab2ed5}" xml:space="preserve">
+    <value>Rating</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{278d1b6f-44fe-4478-b51b-cfc90eab2ed5}'</comment>
+  </data>
+  <data name="1:label,Lead{33754e5e-33d1-79c7-3961-221de2c0c827}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{33754e5e-33d1-79c7-3961-221de2c0c827}'</comment>
+  </data>
+  <data name="1:label,Lead{37fbde00-50a4-45f1-ac65-34a89185746c}" xml:space="preserve">
+    <value>Competitors</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{37fbde00-50a4-45f1-ac65-34a89185746c}'</comment>
+  </data>
+  <data name="1:label,Lead{3cc2bc3f-03a3-47f6-a011-e217dd56ff8d}" xml:space="preserve">
+    <value>Annual Revenue</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{3cc2bc3f-03a3-47f6-a011-e217dd56ff8d}'</comment>
+  </data>
+  <data name="1:label,Lead{41630501-8e64-36b0-d7e0-6845161e92ce}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{41630501-8e64-36b0-d7e0-6845161e92ce}'</comment>
+  </data>
+  <data name="1:label,Lead{41a1a215-b3e5-5b62-3b9b-1c9b6a56ccdb}" xml:space="preserve">
+    <value>County</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{41a1a215-b3e5-5b62-3b9b-1c9b6a56ccdb}'</comment>
+  </data>
+  <data name="1:label,Lead{4622149f-38d7-4ea6-b305-f2cb7be244d0}" xml:space="preserve">
+    <value>Mobile Phone</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{4622149f-38d7-4ea6-b305-f2cb7be244d0}'</comment>
+  </data>
+  <data name="1:label,Lead{494c6aa2-26f3-413f-bcab-dc093d54b82f}" xml:space="preserve">
+    <value>Lead information</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{494c6aa2-26f3-413f-bcab-dc093d54b82f}'</comment>
+  </data>
+  <data name="1:label,Lead{4c5c04eb-beea-433f-994a-5b3ddde2b924}" xml:space="preserve">
+    <value>Business Phone</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{4c5c04eb-beea-433f-994a-5b3ddde2b924}'</comment>
+  </data>
+  <data name="1:label,Lead{4f8c62fe-e4a0-4d66-a7f9-6ad048a81ece}" xml:space="preserve">
+    <value>Geographic Sub-Address</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{4f8c62fe-e4a0-4d66-a7f9-6ad048a81ece}'</comment>
+  </data>
+  <data name="1:label,Lead{567BF77B-7FC1-41E9-A4A9-9108397D2E63}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{567BF77B-7FC1-41E9-A4A9-9108397D2E63}'</comment>
+  </data>
+  <data name="1:label,Lead{5693ad37-350f-4f0e-b03a-4212e78c9b6e}" xml:space="preserve">
+    <value>Contact</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{5693ad37-350f-4f0e-b03a-4212e78c9b6e}'</comment>
+  </data>
+  <data name="1:label,Lead{581F1058-2723-4ECA-9D4B-3EB7800EFF85}" xml:space="preserve">
+    <value>Files</value>
+    <comment>'Lead' : label for tab in Entity FormXml ID: '{581F1058-2723-4ECA-9D4B-3EB7800EFF85}'</comment>
+  </data>
+  <data name="1:label,Lead{582ca22b-95e3-4d0e-9d81-e29bc8100e7a}" xml:space="preserve">
+    <value>Website</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{582ca22b-95e3-4d0e-9d81-e29bc8100e7a}'</comment>
+  </data>
+  <data name="1:label,Lead{5a47390b-a7e6-b43b-2892-1a5564a81cda}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{5a47390b-a7e6-b43b-2892-1a5564a81cda}'</comment>
+  </data>
+  <data name="1:label,Lead{5cd1bbdb-dd43-4eaf-8481-dbf0ec78f5f9}" xml:space="preserve">
+    <value>Geographic Place</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{5cd1bbdb-dd43-4eaf-8481-dbf0ec78f5f9}'</comment>
+  </data>
+  <data name="1:label,Lead{6195aa62-c02d-d953-e0b6-38105eccde3c}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{6195aa62-c02d-d953-e0b6-38105eccde3c}'</comment>
+  </data>
+  <data name="1:label,Lead{652778d1-45ee-9c22-618c-9083b7a38b52}" xml:space="preserve">
+    <value>Street 1</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{652778d1-45ee-9c22-618c-9083b7a38b52}'</comment>
+  </data>
+  <data name="1:label,Lead{6635d704-ad75-864a-03dc-bb8458247ed8}" xml:space="preserve">
+    <value>Longitude</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{6635d704-ad75-864a-03dc-bb8458247ed8}'</comment>
+  </data>
+  <data name="1:label,Lead{69c1bba9-a171-0ea8-da9a-34570e1e32cc}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{69c1bba9-a171-0ea8-da9a-34570e1e32cc}'</comment>
+  </data>
+  <data name="1:label,Lead{69f0ab0f-dba3-4973-bfc2-2fa1f7f207a4}" xml:space="preserve">
+    <value>Stakeholders</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{69f0ab0f-dba3-4973-bfc2-2fa1f7f207a4}'</comment>
+  </data>
+  <data name="1:label,Lead{6ac5ed37-ec4c-48a8-99c0-bfa4aa21a3df}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{6ac5ed37-ec4c-48a8-99c0-bfa4aa21a3df}'</comment>
+  </data>
+  <data name="1:label,Lead{70e8339c-e663-be43-36c8-e4299a9232dd}" xml:space="preserve">
+    <value>Lead Serviceability Check Canvas App</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{70e8339c-e663-be43-36c8-e4299a9232dd}'</comment>
+  </data>
+  <data name="1:label,Lead{7200df97-b74a-4938-8fef-cc5ddd12efe4}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{7200df97-b74a-4938-8fef-cc5ddd12efe4}'</comment>
+  </data>
+  <data name="1:label,Lead{723d2278-0051-451b-ca8d-99ae7c2c2761}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{723d2278-0051-451b-ca8d-99ae7c2c2761}'</comment>
+  </data>
+  <data name="1:label,Lead{7da0c9b6-8289-4b50-ab33-b5f0568cadb9}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{7da0c9b6-8289-4b50-ab33-b5f0568cadb9}'</comment>
+  </data>
+  <data name="1:label,Lead{80409594-2950-4A04-8D5E-6502A28FB077}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{80409594-2950-4A04-8D5E-6502A28FB077}'</comment>
+  </data>
+  <data name="1:label,Lead{83c69dbb-b8ca-8e27-5ec9-883c24305b57}" xml:space="preserve">
+    <value>Street 2</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{83c69dbb-b8ca-8e27-5ec9-883c24305b57}'</comment>
+  </data>
+  <data name="1:label,Lead{86185452-683d-4ac1-9798-9fc5280bdae0}" xml:space="preserve">
+    <value>Phone</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{86185452-683d-4ac1-9798-9fc5280bdae0}'</comment>
+  </data>
+  <data name="1:label,Lead{8f704a5d-5f33-462d-b07b-3c29ddacea29}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{8f704a5d-5f33-462d-b07b-3c29ddacea29}'</comment>
+  </data>
+  <data name="1:label,Lead{9008acae-4b08-4be6-a5d3-aef9155a7f16}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Lead' : label for tab in Entity FormXml ID: '{9008acae-4b08-4be6-a5d3-aef9155a7f16}'</comment>
+  </data>
+  <data name="1:label,Lead{93bb851c-4a32-4bab-a4ef-ee0e97226ad9}" xml:space="preserve">
+    <value>Mail</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{93bb851c-4a32-4bab-a4ef-ee0e97226ad9}'</comment>
+  </data>
+  <data name="1:label,Lead{9769aa55-a1d0-43d7-9d89-9dfccb1efd0d}" xml:space="preserve">
+    <value>Industry</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{9769aa55-a1d0-43d7-9d89-9dfccb1efd0d}'</comment>
+  </data>
+  <data name="1:label,Lead{9ae60f89-6507-4cd3-8c5a-c26915a7e315}" xml:space="preserve">
+    <value>Marketing information</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{9ae60f89-6507-4cd3-8c5a-c26915a7e315}'</comment>
+  </data>
+  <data name="1:label,Lead{9cc77244-4856-3ed8-a6d5-a68b7346e25d}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{9cc77244-4856-3ed8-a6d5-a68b7346e25d}'</comment>
+  </data>
+  <data name="1:label,Lead{a05a784c-4246-4827-0871-ccb006dcab07}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{a05a784c-4246-4827-0871-ccb006dcab07}'</comment>
+  </data>
+  <data name="1:label,Lead{a4d6539c-ac0b-4006-a423-72e898ad65ad}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{a4d6539c-ac0b-4006-a423-72e898ad65ad}'</comment>
+  </data>
+  <data name="1:label,Lead{a5230208-77c9-427d-a961-c8dc9b94aa5a}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{a5230208-77c9-427d-a961-c8dc9b94aa5a}'</comment>
+  </data>
+  <data name="1:label,Lead{a5b3e9c6-2cc7-4273-bd86-12fca3a85e4a}" xml:space="preserve">
+    <value>Last Campaign Date</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{a5b3e9c6-2cc7-4273-bd86-12fca3a85e4a}'</comment>
+  </data>
+  <data name="1:label,Lead{aee93c8c-a239-4a6d-bb9b-6962c20dc8a9}" xml:space="preserve">
+    <value>SIC Code</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{aee93c8c-a239-4a6d-bb9b-6962c20dc8a9}'</comment>
+  </data>
+  <data name="1:label,Lead{B28B7513-E1B6-4113-BCC6-1CF821D6C629}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{B28B7513-E1B6-4113-BCC6-1CF821D6C629}'</comment>
+  </data>
+  <data name="1:label,Lead{b733cc0a-08a4-02ac-068d-e719332c9cde}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{b733cc0a-08a4-02ac-068d-e719332c9cde}'</comment>
+  </data>
+  <data name="1:label,Lead{b8afa97d-100e-4f46-8ee8-38081d8a4404}" xml:space="preserve">
+    <value>Job Title</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{b8afa97d-100e-4f46-8ee8-38081d8a4404}'</comment>
+  </data>
+  <data name="1:label,Lead{B98BF452-2653-4EFE-B9A8-3F28A7AB52B9}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{B98BF452-2653-4EFE-B9A8-3F28A7AB52B9}'</comment>
+  </data>
+  <data name="1:label,Lead{ba205ced-a9e5-54dd-1591-736364732a4a}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{ba205ced-a9e5-54dd-1591-736364732a4a}'</comment>
+  </data>
+  <data name="1:label,Lead{bac826a8-ee3e-412a-828a-f192e6d8dc6e}" xml:space="preserve">
+    <value>Social pane</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{bac826a8-ee3e-412a-828a-f192e6d8dc6e}'</comment>
+  </data>
+  <data name="1:label,Lead{bbe784ab-23b6-40a5-8c83-142190b2af1d}" xml:space="preserve">
+    <value>Bulk email</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{bbe784ab-23b6-40a5-8c83-142190b2af1d}'</comment>
+  </data>
+  <data name="1:label,Lead{c04cbac2-675e-4454-ae98-e92193e98b47}" xml:space="preserve">
+    <value>Geographic Location</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{c04cbac2-675e-4454-ae98-e92193e98b47}'</comment>
+  </data>
+  <data name="1:label,Lead{c44ae4b6-3cdc-4181-898b-5bafa4fc8283}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{c44ae4b6-3cdc-4181-898b-5bafa4fc8283}'</comment>
+  </data>
+  <data name="1:label,Lead{c4b6405d-053f-4165-b420-6992a1dec9db}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{c4b6405d-053f-4165-b420-6992a1dec9db}'</comment>
+  </data>
+  <data name="1:label,Lead{c6cd7b3a-4b08-92a9-279b-bcecc18288ed}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{c6cd7b3a-4b08-92a9-279b-bcecc18288ed}'</comment>
+  </data>
+  <data name="1:label,Lead{C76E9552-0868-4DD1-A6B6-01E7C8DED166}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{C76E9552-0868-4DD1-A6B6-01E7C8DED166}'</comment>
+  </data>
+  <data name="1:label,Lead{ca22ebe3-6165-842d-e963-75eb171c251e}" xml:space="preserve">
+    <value>Business Card</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{ca22ebe3-6165-842d-e963-75eb171c251e}'</comment>
+  </data>
+  <data name="1:label,Lead{cd70ad75-fa8d-491a-a9e6-9164c0274dd8}" xml:space="preserve">
+    <value>Company</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{cd70ad75-fa8d-491a-a9e6-9164c0274dd8}'</comment>
+  </data>
+  <data name="1:label,Lead{d1407ad3-7bb7-75ad-d23d-1c54a4d9c502}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{d1407ad3-7bb7-75ad-d23d-1c54a4d9c502}'</comment>
+  </data>
+  <data name="1:label,Lead{d3a5f17c-30bb-4d2b-bb7f-4ef968727df7}" xml:space="preserve">
+    <value>Marketing materials</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{d3a5f17c-30bb-4d2b-bb7f-4ef968727df7}'</comment>
+  </data>
+  <data name="1:label,Lead{da5556d4-5843-7a41-a4c4-225e6c159609}" xml:space="preserve">
+    <value>ZIP/Postal Code</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{da5556d4-5843-7a41-a4c4-225e6c159609}'</comment>
+  </data>
+  <data name="1:label,Lead{deccc6b6-e5ce-6ca2-d683-16a58247e459}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{deccc6b6-e5ce-6ca2-d683-16a58247e459}'</comment>
+  </data>
+  <data name="1:label,Lead{e1925535-689c-4536-9170-93c752121734}" xml:space="preserve">
+    <value>Contact method</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{e1925535-689c-4536-9170-93c752121734}'</comment>
+  </data>
+  <data name="1:label,Lead{E20AA3DE-FC72-4ADF-9B78-9E96ACD08731}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{E20AA3DE-FC72-4ADF-9B78-9E96ACD08731}'</comment>
+  </data>
+  <data name="1:label,Lead{E8B94961-E130-478C-90D8-718653EDC0C1}" xml:space="preserve">
+    <value>Assistant</value>
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{E8B94961-E130-478C-90D8-718653EDC0C1}'</comment>
+  </data>
+  <data name="1:label,Lead{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}" xml:space="preserve">
+    <value>Assistant</value>
+    <comment>'Lead' : label for section in Entity FormXml ID: '{ea3bb0a6-b9dc-1b0e-5e7d-74a380ee79a3}'</comment>
+  </data>
+  <data name="1:label,Lead{f7109214-c3bd-4734-ad5b-4054499a43d6}" xml:space="preserve">
+    <value>Summary</value>
+    <comment>'Lead' : label for tab in Entity FormXml ID: '{f7109214-c3bd-4734-ad5b-4054499a43d6}'</comment>
+  </data>
+  <data name="1:label,Lead{fd6855b3-9d55-489e-9322-70b510b2987d}" xml:space="preserve">
+    <value />
+    <comment>'Lead' : label for cell in Entity FormXml ID: '{fd6855b3-9d55-489e-9322-70b510b2987d}'</comment>
+  </data>
+  <data name="1:label,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mstelco_leadserviceabilityflow' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'mstelco_leadserviceabilityflow' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'mstelco_leadserviceabilityflow' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statuscode2" xml:space="preserve">
+    <value>Finished</value>
+    <comment>'mstelco_leadserviceabilityflow' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,mstelco_leadserviceabilityflowmstelco_leadserviceabilityflow_statuscode3" xml:space="preserve">
+    <value>Aborted</value>
+    <comment>'mstelco_leadserviceabilityflow' : label for status '3' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,LeadentityLead" xml:space="preserve">
+    <value>Leads</value>
+    <comment> 'Lead' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,mstelco_leadserviceabilityflowentitymstelco_leadserviceabilityflow" xml:space="preserve">
+    <value>Lead Serviceability Flow</value>
+    <comment> 'mstelco_leadserviceabilityflow' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{11de50a8-8cbc-4393-974e-35a9258e134e}" xml:space="preserve">
+    <value>Lead Serviceability Flow Lookup View</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{11de50a8-8cbc-4393-974e-35a9258e134e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{13490d8e-4792-441d-9ac1-96dfe85a7e37}" xml:space="preserve">
+    <value>Inactive Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{13490d8e-4792-441d-9ac1-96dfe85a7e37}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{2d962ad6-ac1e-4ab7-8903-14bca8d6b66d}" xml:space="preserve">
+    <value>Active Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{2d962ad6-ac1e-4ab7-8903-14bca8d6b66d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{30fed3de-a213-4d3a-9efe-2c4b41bd2600}" xml:space="preserve">
+    <value>Active Lead Serviceability Flow on my Leads</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{30fed3de-a213-4d3a-9efe-2c4b41bd2600}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{4D1189EC-7C2E-EB11-A813-000D3A8D984C}" xml:space="preserve">
+    <value>Number of Leads by Stage</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for Visualization '{4D1189EC-7C2E-EB11-A813-000D3A8D984C}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{61c1530f-aed1-4d58-9a23-27797e462b56}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for systemform in Entity FormXml ID: '{61c1530f-aed1-4d58-9a23-27797e462b56}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{8a73f897-bf1f-eb11-a813-000d3a111312}" xml:space="preserve">
+    <value>Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{8a73f897-bf1f-eb11-a813-000d3a111312}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{8c16891b-a297-4141-bff1-0a6022fe8d6f}" xml:space="preserve">
+    <value>Quick Find Active Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{8c16891b-a297-4141-bff1-0a6022fe8d6f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{8c5ff77d-4c3c-4b66-86d0-36df1ea1d146}" xml:space="preserve">
+    <value>Lead Serviceability Flow Associated View</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{8c5ff77d-4c3c-4b66-86d0-36df1ea1d146}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{b0698ee6-7c2e-eb11-a813-000d3a8d984c}" xml:space="preserve">
+    <value>Open Leads</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{b0698ee6-7c2e-eb11-a813-000d3a8d984c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{ba8fe022-09ef-4d69-9f51-7edf81a7d510}" xml:space="preserve">
+    <value>All Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{ba8fe022-09ef-4d69-9f51-7edf81a7d510}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{c4dda110-172e-4159-aba4-b348423e0421}" xml:space="preserve">
+    <value>Inactive Lead Serviceability Flow on my Leads</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{c4dda110-172e-4159-aba4-b348423e0421}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead Serviceability Flow{cc0815dc-fc20-4343-a9d6-755c1987753d}" xml:space="preserve">
+    <value>Lead Serviceability Flow Advanced Find View</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for SavedQuery on Entity QueryId: '{cc0815dc-fc20-4343-a9d6-755c1987753d}'</comment>
+  </data>
+  <data name="1:LocalizedName,LeadentityLead" xml:space="preserve">
+    <value>Lead</value>
+    <comment> 'Lead' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{00000000-0000-0000-00aa-000010001005}" xml:space="preserve">
+    <value>My Open Leads</value>
+    <comment>'Lead' : LocalizedName for SavedQuery on Entity QueryId: '{00000000-0000-0000-00aa-000010001005}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Telco Lead</value>
+    <comment>'Lead' : LocalizedName for systemform in Entity FormXml ID: '{129da70b-c11f-eb11-a814-000d3a8bf344}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{45CE8B59-AE29-EB11-A813-000D3A111312}" xml:space="preserve">
+    <value>Number of Leads by Serviceability Status</value>
+    <comment>'Lead' : LocalizedName for Visualization '{45CE8B59-AE29-EB11-A813-000D3A111312}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{4aa5dfc2-9c24-eb11-a813-000d3a995243}" xml:space="preserve">
+    <value>Serviceable Leads</value>
+    <comment>'Lead' : LocalizedName for SavedQuery on Entity QueryId: '{4aa5dfc2-9c24-eb11-a813-000d3a995243}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{4d972b33-2634-eb11-a813-000d3a8d984c}" xml:space="preserve">
+    <value>Telco Sales Leads</value>
+    <comment>'Lead' : LocalizedName for SavedQuery on Entity QueryId: '{4d972b33-2634-eb11-a813-000d3a8d984c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{9f461cd5-9c24-eb11-a813-000d3a995243}" xml:space="preserve">
+    <value>Not Serviceable Leads</value>
+    <comment>'Lead' : LocalizedName for SavedQuery on Entity QueryId: '{9f461cd5-9c24-eb11-a813-000d3a995243}'</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{B5EF1111-AE29-EB11-A813-000D3A111312}" xml:space="preserve">
+    <value>Number of Leads by Stage</value>
+    <comment>'Lead' : LocalizedName for Visualization '{B5EF1111-AE29-EB11-A813-000D3A111312}' on  Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Lead{f027ed52-9b24-eb11-a813-000d3a995243}" xml:space="preserve">
+    <value>New Leads</value>
+    <comment>'Lead' : LocalizedName for SavedQuery on Entity QueryId: '{f027ed52-9b24-eb11-a813-000d3a995243}'</comment>
+  </data>
+  <data name="1:LocalizedName,mstelco_leadserviceabilityflowentitymstelco_leadserviceabilityflow" xml:space="preserve">
+    <value>Lead Serviceability Flow</value>
+    <comment> 'mstelco_leadserviceabilityflow' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,LeadInfo{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,LeadMarketing{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,LeadnavActivities{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Activities</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
+  </data>
+  <data name="1:Title,LeadnavAsyncOperations{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Workflows</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
+  </data>
+  <data name="1:Title,LeadnavAudit{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Audit History</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
+  </data>
+  <data name="1:Title,LeadnavCampaignsInSFA{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Campaigns</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navCampaignsInSFA'</comment>
+  </data>
+  <data name="1:Title,LeadnavConnections{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
+  </data>
+  <data name="1:Title,LeadnavDocument{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Documents</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navDocument'</comment>
+  </data>
+  <data name="1:Title,LeadnavLeadCompetitor{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Competitors</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navLeadCompetitor'</comment>
+  </data>
+  <data name="1:Title,LeadnavProcessSessions{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Dialog Sessions</value>
+    <comment>'Lead' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
+  </data>
+  <data name="1:Title,LeadProcessCenter{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Processes</value>
+    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,LeadSales{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,LeadService{129da70b-c11f-eb11-a814-000d3a8bf344}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Lead' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="222:LocalizedName,{827f99a7-5e24-eb11-a813-000d3a111312}" xml:space="preserve">
+    <value>Telco Leads Dashboard</value>
+    <comment>'DashBoard'</comment>
+  </data>
+  <data name="29:label,{0621efd7-be38-4099-8cf7-aa4bcab9043b}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Lead Serviceability Flow:{0621efd7-be38-4099-8cf7-aa4bcab9043b}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{0dd46ba6-8b1b-44d9-bc3e-bf90c2c46cc5}" xml:space="preserve">
+    <value>County</value>
+    <comment>'Lead Serviceability Flow:{0dd46ba6-8b1b-44d9-bc3e-bf90c2c46cc5}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{15691b2b-a316-4c1a-a3fa-c10dca9ba6af}" xml:space="preserve">
+    <value>Device Discovery</value>
+    <comment>'Lead Serviceability Flow:{15691b2b-a316-4c1a-a3fa-c10dca9ba6af}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{17a39d91-a477-404d-94c3-5216a7fcbf9e}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead Serviceability Flow:{17a39d91-a477-404d-94c3-5216a7fcbf9e}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{1d898d96-70c8-42f7-9e25-915a47e75732}" xml:space="preserve">
+    <value>Service Area</value>
+    <comment>'Lead Serviceability Flow:{1d898d96-70c8-42f7-9e25-915a47e75732}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{1e53a94b-6084-4995-bd6b-a43976871f63}" xml:space="preserve">
+    <value>Geographic Sub-Address</value>
+    <comment>'Lead Serviceability Flow:{1e53a94b-6084-4995-bd6b-a43976871f63}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{1e541b95-41d4-4547-bd9a-d084405ea97c}" xml:space="preserve">
+    <value>Demarcation Point</value>
+    <comment>'Lead Serviceability Flow:{1e541b95-41d4-4547-bd9a-d084405ea97c}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{404a5f7d-3a92-413a-a870-808ec30412d7}" xml:space="preserve">
+    <value>Street 2</value>
+    <comment>'Lead Serviceability Flow:{404a5f7d-3a92-413a-a870-808ec30412d7}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{42de0b78-a8c5-4dcb-a0d3-8a90812e86c9}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Lead Serviceability Flow:{42de0b78-a8c5-4dcb-a0d3-8a90812e86c9}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{49502200-b6ee-4159-9948-a73b022c5ac9}" xml:space="preserve">
+    <value>Network Proximity</value>
+    <comment>'Lead Serviceability Flow:{49502200-b6ee-4159-9948-a73b022c5ac9}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{6077e282-2f3b-45af-aa05-41e3e478da32}" xml:space="preserve">
+    <value>Geographic Location</value>
+    <comment>'Lead Serviceability Flow:{6077e282-2f3b-45af-aa05-41e3e478da32}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{70c1c9d1-e74c-48f7-b285-4e4a76a006cc}" xml:space="preserve">
+    <value>Street 1</value>
+    <comment>'Lead Serviceability Flow:{70c1c9d1-e74c-48f7-b285-4e4a76a006cc}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{75f10976-6808-4a8c-8f5d-ab2edb139e33}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Lead Serviceability Flow:{75f10976-6808-4a8c-8f5d-ab2edb139e33}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{8a17ad41-95b0-4960-a6b2-383ac5afe726}" xml:space="preserve">
+    <value>Serviceability Status</value>
+    <comment>'Lead Serviceability Flow:{8a17ad41-95b0-4960-a6b2-383ac5afe726}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{906eddf2-dc40-4bd9-8e61-7fe4febc1b40}" xml:space="preserve">
+    <value>Service Area Check</value>
+    <comment>'Lead Serviceability Flow:{906eddf2-dc40-4bd9-8e61-7fe4febc1b40}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{c840cda9-ad97-4095-980e-1d4af797c639}" xml:space="preserve">
+    <value>Geographic Address</value>
+    <comment>'Lead Serviceability Flow:{c840cda9-ad97-4095-980e-1d4af797c639}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{df5a6bf5-a983-4d94-90e8-d82a237c7b7c}" xml:space="preserve">
+    <value>Geographic Place</value>
+    <comment>'Lead Serviceability Flow:{df5a6bf5-a983-4d94-90e8-d82a237c7b7c}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:label,{df72c758-1eb5-4ee7-9b48-fbc7faaf1dfc}" xml:space="preserve">
+    <value>Premise Check</value>
+    <comment>'Lead Serviceability Flow:{df72c758-1eb5-4ee7-9b48-fbc7faaf1dfc}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:LocalizedName,{baf92b1d-6630-44cd-bf7f-e8014178bf65}" xml:space="preserve">
+    <value>Lead Serviceability Flow</value>
+    <comment>'Lead Serviceability Flow' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="80:Description,mstelco_TelcoSales" xml:space="preserve">
+    <value>This model-driven applications builds on the out-of-the-box offering from D365 Sales in order to provide new forms for Service Addresses Lookups and Serviceability workflows which designate a customer’s service address and verify whether it exists, or is planned to exist, within or across a service provider’s network.</value>
+    <comment> 'mstelco_TelcoSales' : Description for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,mstelco_TelcoSales" xml:space="preserve">
+    <value>Telco Sales</value>
+    <comment> 'mstelco_TelcoSales' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,mstelco_TelcoSales" xml:space="preserve">
+    <value>Telco Sales</value>
+    <comment>'mstelco_TelcoSales' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesActivity" xml:space="preserve">
+    <value>Activities</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Activity'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesCollateral" xml:space="preserve">
+    <value>Collateral</value>
+    <comment>Title for Area 'mstelco_telcosales' Group 'Collateral'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesCompetitor" xml:space="preserve">
+    <value>Competitors</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Competitor'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesDashboards" xml:space="preserve">
+    <value>Dashboards</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Dashboards'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesForecastInstance" xml:space="preserve">
+    <value>Forecasts</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'ForecastInstance'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesGoal" xml:space="preserve">
+    <value>Goals</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Goal'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesGoals" xml:space="preserve">
+    <value>Performance</value>
+    <comment>Title for Area 'mstelco_telcosales' Group 'Goals'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesInvoice" xml:space="preserve">
+    <value>Invoices</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Invoice'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesLead" xml:space="preserve">
+    <value>Leads</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Lead'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesmstelco_customers" xml:space="preserve">
+    <value>Customers</value>
+    <comment>Title for Area 'mstelco_telcosales' Group 'mstelco_customers'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesmstelco_telcosales" xml:space="preserve">
+    <value>Telco Sales</value>
+    <comment>Title for Area 'mstelco_telcosales' Area 'mstelco_telcosales'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesMy_Work" xml:space="preserve">
+    <value>My Work</value>
+    <comment>Title for Area 'mstelco_telcosales' Group 'My_Work'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesNewSubArea_470ff342Product" xml:space="preserve">
+    <value>Products</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'NewSubArea_470ff342Product'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesOpportunity" xml:space="preserve">
+    <value>Opportunities</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Opportunity'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesOrder" xml:space="preserve">
+    <value>Orders</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Order'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesQuote" xml:space="preserve">
+    <value>Quotes</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Quote'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesSales" xml:space="preserve">
+    <value>Sales</value>
+    <comment>Title for Area 'mstelco_telcosales' Group 'Sales'</comment>
+  </data>
+  <data name="81:Title,mstelco_telcosalesSalesliterature" xml:space="preserve">
+    <value>Sales Literature</value>
+    <comment>Title for Area 'mstelco_telcosales' SubArea 'Salesliterature'</comment>
+  </data>
+</root>

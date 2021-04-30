@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="mstelco_addresssubunittype" localizedName="Address Sub-Unit Type" description="Sub Unit Type of the Geographic Sub Address." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Address Sub-Unit Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Sub Unit Type of the Geographic Sub Address." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="719830000" ExternalValue="" Color="">
+      <labels>
+        <label description="Suite" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830001" ExternalValue="" Color="">
+      <labels>
+        <label description="Flat" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830002" ExternalValue="" Color="">
+      <labels>
+        <label description="Apartment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830003" ExternalValue="" Color="">
+      <labels>
+        <label description="Office" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830004" ExternalValue="" Color="">
+      <labels>
+        <label description="Node" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830005" ExternalValue="" Color="">
+      <labels>
+        <label description="Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830006" ExternalValue="" Color="">
+      <labels>
+        <label description="Complex" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830007" ExternalValue="" Color="">
+      <labels>
+        <label description="Hall" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830008" ExternalValue="" Color="">
+      <labels>
+        <label description="Wing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="719830009" ExternalValue="" Color="">
+      <labels>
+        <label description="Room" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
