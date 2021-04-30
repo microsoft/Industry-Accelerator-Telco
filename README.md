@@ -1,11 +1,11 @@
-# Telcommunication Accelerator
+# Telecommunications Accelerator
 Hello ISVs, SIs, Partners and Customers - Your success is our goal.
-This Repository helps you to Connect, Extend, Build and Contribute to Microsoft Telecommunication Industry Accelerator.
+This Repository helps you to Connect, Extend, Build and Contribute to Microsoft Telecommunications Industry Accelerator.
 
 # Table of Contents
 
   * [Introduction](#Microsoft-Dynamics-365-Announces-Industry-Accelerators)
-  * [Overview](#Overview-of-the-Industry-Telcommunication-Accelerator)
+  * [Overview](#Overview-of-the-Industry-Telecommunications-Accelerator)
   * [Releases](#Releases)
   * [Other Industry Accelerator](#Get-to-know-about-other-Industry-Accelerators)
   * [Contributing](#Contributing)
@@ -18,9 +18,8 @@ Dynamics 365 announced the Microsoft Power Platform, a connected app platform th
 With the Power Platform providing a unified approach to building data driven solutions, the team is taking it one step further by introducing Industry Solution Accelerators. Accelerators are industry focused foundational components that enable ISVs and other solution providers, a way to build solutions that are based on industry standards supported and driven by Microsoft. Along with our Telecommunication Accelerator, which you can read about here, we are focused on delivering accelerators for other industries for which you can find more detail in the links below.
 
 
-## Overview of the Telcommunication Accelerator
-Telecommunications Accelerator focuses on “Subscriber Lead &  Geocoded Place Management” to enable network and mobile operators, Internet service providers, and other players in the space to better relate their services, products, and deployed plant and network resources to specific geocoded physical locations (i.e. buildings/dwelling/campuses) within and across their service areas. Improved and automated lead management with built-in service availability checks as well as resource and network mapping and address lookups are included in the two model-driven sample applications, one of which is standalone for address and network management ("Place Management") and one which integrates and expands the out-of-the-box Dynamics365 Sales application with the Telco entities ("Telco Sales").  The mapping features integrates directly with Azure Maps API. The Telco extension to the Common Data Model is based on the TM Forum Open Digital Framework for Geographic Site Management and creates 15 new telco-specific data entities and related attributes for fast application development.
-
+## Overview of the Telecommunications Accelerator
+The v1 Telecommunications Accelerator focuses on “Place Management” and "Telco Sales" to enable network and mobile operators, Internet service providers, and other players in the space to better relate their services, products, and deployed plant and network resources to specific geocoded physical locations (i.e. buildings/dwelling/campuses) within and across their service areas. Improved and automated lead management with built-in service availability checks as well as resource and network mapping and address lookups are included in the two model-driven sample applications, one of which is standalone for address and network management ("Place Management") and one which integrates and expands the out-of-the-box Dynamics365 Sales application with the Telco entities ("Telco Sales").  The mapping features integrates directly with Azure Maps API. The Telco extension to the Common Data Model is based on the TM Forum Open Digital Framework for Geographic Site Management and creates new telco-specific data entities and related attributes for fast application development. 
 
 ## Releases
 
@@ -31,7 +30,7 @@ Click "release" tab on the top or click this [link](https://github.com/microsoft
 
 | Industry Accelerators | Description |
 |-------------|----------------------|
-| [Media and Communications Accelerator](https://github.com/Microsoft/Industry-Accelerator-Media) |  Rapidly develop solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
+| [Media and Entertainment Accelerator](https://github.com/Microsoft/Industry-Accelerator-Media) |  Rapidly develop solutions around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Automotive Accelerator](https://github.com/Microsoft/Industry-Accelerator-Automotive) |  Rapidly develop test drives, vehicle specifications and service appointment scheduling solutions. The Microsoft Auto Accelerator empowers customers and users to schedule appointments and services facilitated through proactive communications. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Financial Services Accelerator](https://github.com/Microsoft/Industry-Accelerator-FinancialServices) | Rapidly develop Banking solutions using entities such as loan, mortgage, referrals, branch, collateral, deal, limit, facilities, and more. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
 | [Health Accelerator](https://github.com/Microsoft/Industry-Accelerator-Health) |  Rapidly develop healthcare solutions using FHIR entities such as patient, condition, and care plan. The Microsoft Health Accelerator enables partners and customers to create new use cases and workflows using a FHIR-based data model. Get more details from [Dynamics 365 ISV Success community](https://community.dynamics.com/365/b/dynamics365isvsuccess)|
